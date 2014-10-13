@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Bratzies Portfolio",
   "repository": "https://github.com/bratzie/bratfolio",
-  "license": "MIT",
+  "license": "",
   "private": true,
   "dependencies": {
     "angular": "1.2.x",

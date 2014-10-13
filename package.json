@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "Bratzies Portfolio",
   "repository": "https://github.com/bratzie/bratfolio",
-  "license": "MIT",
+  "license": "",
   "devDependencies": {
     "karma": "~0.10",
     "protractor": "^1.1.1",
