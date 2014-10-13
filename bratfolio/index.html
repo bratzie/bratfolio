@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="bratfolio" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="bratfolio" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="bratfolio" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="bratfolio" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bratfolio</title>
+    <meta name="description" content="The portfolio of Jesper Bratt" />
+    <meta name="author" content="Jesper Bratt" />
+    <meta name="keywords" content="cozy, corner, bratzie, portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+    <header ng-class="{orangeHeader: setOrange, greenHeader: setGreen, pinkHeader: setPink}">
+        <h1 class="headerText" id="top">BRATFOLIO</h1>
+    </header>
+    <div id="sticky-anchor"></div>
+    <nav id="sticky">
+        <ul class="menu" ng-class="{orange: setOrange, green: setGreen, pink: setPink}">
+            <li ng-click="setOrange=''; setGreen=''; setPink=''"><a class="homeIcon" href="#/">Home</a></li>
+            <li ng-click="setOrange='1'; setGreen=''; setPink=''"><a href="#/intro">Introduction</a></li>
+            <li ng-click="setOrange=''; setGreen='1'; setPink=''"><a href="#/cv">CV</a></li>
+            <li ng-click="setOrange=''; setGreen=''; setPink='1'"><a href="#/portfolio">Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div id="viewContainer">
+        <div ng-view></div>
+    </div>
+    <footer class="divider" ng-class="{orangeHeader: setOrange, greenHeader: setGreen, pinkHeader: setPink}">
+        <p id="footerText">Copyright 2014 - Jesper Bratt</p>
+    </footer>
+    <!-- In production use:
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+    -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="main.js"></script>
+    <script src="partials/portfolio.js"></script>
+</body>
+</html>
