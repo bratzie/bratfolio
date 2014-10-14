@@ -1,1 +1,11 @@
-<p>Portfolio</p>
+<ul class="projects">
+	<li ng-repeat="project in projects" class="projectThumb">
+		<div class="thumb">
+			<a href="#/projects/{{project.id}}"><img ng-src="{{project.thumbUrl}}"></a>
+			<div class="thumbCover">
+				<a href="#/projects/{{project.id}}">{{project.title}}</a>
+				<p>{{project.snippet}}</p>
+			</div>
+    	</div>
+  	</li>
+</ul>

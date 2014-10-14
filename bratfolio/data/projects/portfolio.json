@@ -1,0 +1,31 @@
+{
+    "id": "project-1", 
+    "images": [
+        "img/projects/testProject.jpg", 
+        "img/projects/testProject.jpg", 
+        "img/projects/testProject.jpg"
+    ], 
+    "title": "Dell Venue", 
+    "skills": [
+        "Layouting",
+        "Design"
+    ],
+    "technology": [
+        "Angular",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "jQuery",
+        "git"
+    ],
+    "software": [
+        "Adobe Photoshop",
+        "Sublime Text 3"
+    ],
+    "information": {
+        "date": "October 2014", 
+        "author": "Bratzie", 
+        "time": "7 days"
+    }, 
+    "description": "Made my portfolio, and at the same time I rocked some cool new frameworks and played around to get slightly sharper at what I'm doing. Oh, also, awesome for showing off!"
+}
