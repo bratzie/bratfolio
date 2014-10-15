@@ -1,1 +1,10 @@
-<p>Project</p>
+<div class="container">
+
+<p>{{projectId}}</p>
+<p>{{project.name}}</p>
+
+<ul class="project-preview">
+	<li ng-repeat="img in project.images"><img ng-src="{{img}}"></img></li>
+</ul>
+
+</div>

@@ -24,28 +24,30 @@
 </head>
 
 <body>
-    <header ng-class="{orangeHeader: setOrange, greenHeader: setGreen, pinkHeader: setPink}">
-        <h1 class="headerText" id="top">BRATFOLIO</h1>
+    <header ng-class="{'orange-header': setOrange, 'green-header': setGreen, 'pink-header': setPink}">
+        <h1 id="header-text" id="top">BRATFOLIO</h1>
     </header>
     <div id="sticky-anchor"></div>
     <nav id="sticky">
         <ul class="menu" ng-class="{orange: setOrange, green: setGreen, pink: setPink}">
-            <li ng-click="setOrange=''; setGreen=''; setPink=''"><a class="homeIcon" href="#/">Home</a></li>
+            <li ng-click="setOrange=''; setGreen=''; setPink=''"><a class="home-icon" href="#/">Home</a></li>
             <li ng-click="setOrange='1'; setGreen=''; setPink=''"><a href="#/intro">Introduction</a></li>
             <li ng-click="setOrange=''; setGreen='1'; setPink=''"><a href="#/cv">CV</a></li>
             <li ng-click="setOrange=''; setGreen=''; setPink='1'"><a href="#/portfolio">Portfolio</a></li>
         </ul>
-    </nav>
+    </nav>      
 
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div id="viewContainer">
-        <div ng-view></div>
+    <div class="view-container">
+        <div ng-view class="view-frame"></div>
     </div>
-    <footer class="divider" ng-class="{orangeHeader: setOrange, greenHeader: setGreen, pinkHeader: setPink}">
-        <p id="footerText">Copyright 2014 - Jesper Bratt</p>
+    <!--
+    <footer ng-class="{'orange-header': setOrange, 'green-header': setGreen, 'pink-header': setPink}">
+        <p id="footer-text">Copyright 2014 - Jesper Bratt</p>
     </footer>
+    -->
     <!-- In production use:
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
     -->
@@ -53,7 +55,8 @@
     <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="main.js"></script>
-    <script src="partials/portfolio.js"></script>
+    <script src="partials/portfolio.js"></script> <!-- Portfolio Controller -->
 </body>
 </html>

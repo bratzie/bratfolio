@@ -1,11 +1,18 @@
-<ul class="projects">
-	<li ng-repeat="project in projects" class="projectThumb">
-		<div class="thumb">
-			<a href="#/projects/{{project.id}}"><img ng-src="{{project.thumbUrl}}"></a>
-			<div class="thumbCover">
-				<a href="#/projects/{{project.id}}">{{project.title}}</a>
-				<p>{{project.snippet}}</p>
-			</div>
-    	</div>
-  	</li>
-</ul>
+<div class="container">
+	<ul class="projects">
+		<li ng-repeat="project in projects" class="project-thumb">
+			<div class="thumb">
+				<a href="#/projects/{{project.id}}"><img class="thumb-img" ng-src="{{project.thumbUrl}}"></a>
+				<div class="thumb-cover">
+					<div class="thumb-cover-left">
+						<a href="#/projects/{{project.id}}">{{project.title}}</a>
+						<p>{{project.snippet}}</p>
+					</div>
+					<div class="thumb-cover-right">
+						<a href="#/projects/{{project.id}}"><img src="img/arrow.svg"></a>
+					</div>
+				</div>
+	    	</div>
+	  	</li>
+	</ul>
+</div>

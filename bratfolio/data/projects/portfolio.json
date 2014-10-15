@@ -1,9 +1,9 @@
 {
-    "id": "project-1", 
+    "id": "portfolio", 
     "images": [
-        "img/projects/testProject.jpg", 
-        "img/projects/testProject.jpg", 
-        "img/projects/testProject.jpg"
+        "img/projects/testProject.jpeg", 
+        "img/projects/testProject1.jpeg", 
+        "img/projects/testProject2.jpeg"
     ], 
     "title": "Dell Venue", 
     "skills": [
