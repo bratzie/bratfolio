@@ -7,6 +7,10 @@ angular.module('bratfolio.portfolio', [])
 		$http.get('data/projects.json').success( function(data) {
 			$scope.projects = data;
 		});
+
+		$http.get('http://baconipsum.com/api/?type=all-meat&paras=1').success( function(data) {
+			$scope.bacon = data;
+		});
 }])
 
 .controller('ProjectCtrl', ['$scope', '$routeParams', '$http', 

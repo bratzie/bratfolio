@@ -5,10 +5,15 @@
         "img/projects/testProject1.jpeg", 
         "img/projects/testProject2.jpeg"
     ], 
-    "title": "Dell Venue", 
+    "title": "Awesome Portfolio",
     "skills": [
         "Layouting",
-        "Design"
+        "Design",
+        "Front end development"
+    ],
+    "software": [
+        "Adobe Photoshop",
+        "Sublime Text 3"
     ],
     "technology": [
         "Angular",
@@ -17,10 +22,6 @@
         "Javascript",
         "jQuery",
         "git"
-    ],
-    "software": [
-        "Adobe Photoshop",
-        "Sublime Text 3"
     ],
     "information": {
         "date": "October 2014", 

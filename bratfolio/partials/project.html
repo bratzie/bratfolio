@@ -1,10 +1,23 @@
 <div class="container">
 
-<p>{{projectId}}</p>
-<p>{{project.name}}</p>
+	<p>{{projectId}}</p>
+	<p>{{project.title}}</p>
 
-<ul class="project-preview">
-	<li ng-repeat="img in project.images"><img ng-src="{{img}}"></img></li>
-</ul>
+	<div class="image-container">
+		<ul class="project-preview">
+			<li ng-repeat="img in project.images"><img ng-src="{{img}}"></img></li>
+		</ul>
+	</div>
 
+	<div class="columns">
+		<div class="list">
+			<h2>Skills</h2>
+		</div>
+		<div class="list">
+			<h2>Software</h2>
+		</div>
+		<div class="list">
+			<h2>Technology</h2>
+		</div>
+	</div>
 </div>

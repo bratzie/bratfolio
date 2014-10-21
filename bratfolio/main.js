@@ -44,7 +44,7 @@ function stickyRelocate() {
     var div_top = $('#sticky-anchor').offset().top;
     if (window_top > div_top) {
         $('#sticky').addClass('stick').width($(window).width());
-        $('#sticky-anchor').css("padding", "52px");
+        $('#sticky-anchor').css("padding", "40px");
     } else {
         $('#sticky').removeClass('stick');
         $('#sticky-anchor').css("padding", "0px");

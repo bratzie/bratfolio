@@ -30,10 +30,10 @@
     <div id="sticky-anchor"></div>
     <nav id="sticky">
         <ul class="menu" ng-class="{orange: setOrange, green: setGreen, pink: setPink}">
-            <li ng-click="setOrange=''; setGreen=''; setPink=''"><a class="home-icon" href="#/">Home</a></li>
-            <li ng-click="setOrange='1'; setGreen=''; setPink=''"><a href="#/intro">Introduction</a></li>
-            <li ng-click="setOrange=''; setGreen='1'; setPink=''"><a href="#/cv">CV</a></li>
-            <li ng-click="setOrange=''; setGreen=''; setPink='1'"><a href="#/portfolio">Portfolio</a></li>
+            <li><a class="home-icon" href="#/" ng-click="setOrange=''; setGreen=''; setPink=''">Home</a></li>
+            <li><a href="#/intro" ng-click="setOrange='1'; setGreen=''; setPink=''">Introduction</a></li>
+            <li><a href="#/cv" ng-click="setOrange=''; setGreen='1'; setPink=''">CV</a></li>
+            <li><a href="#/portfolio" ng-click="setOrange=''; setGreen=''; setPink='1'">Portfolio</a></li>
         </ul>
     </nav>      
 
