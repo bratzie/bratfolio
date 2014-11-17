@@ -1,20 +1,47 @@
-<div class="container">
-	<div class="cv-nav">
-		<div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
-			<img src="http://placekitten.com/g/300/300" />
-			<h2>FAST TRAVEL</h2>
-		</div>
-		<ul class="cv-nav-list">
-			<li><a href="#">Education</a></li>
-			<li><a href="#">Education</a></li>
-			<li><a href="#">Education</a></li>
-			<li><a href="#">Education</a></li>
-		</ul>
-	</div>
-
+<div id="sticky-cv-anchor"></div>
+<div id="sticky-cv" class="cv-nav">
+<!--
 	<div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
 		<img src="http://placekitten.com/g/300/300" />
-		<h2>EDUCATION</h2>
+		<h2 id="navigation">FAST TRAVEL</h2>
+	</div>
+-->
+	<ul class="cv-nav-list">
+		<li><a href="#education" du-smooth-scroll du-scrollspy>Education</a></li>
+		<li><a href="#work" du-smooth-scroll du-scrollspy>Work</a></li>
+	</ul>
+</div>
+<div class="container">
+	<div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+		<img src="http://placekitten.com/g/300/300" />
+		<h2 id="education">EDUCATION</h2>
+	</div>
+	<div class="cv-part" onClick="expandInfo(this)">
+		<img src="http://placekitten.com/g/300/300" />
+		<div class="main-info">
+			<h2>Company</h2>
+			<h3>13/8 2014 - 19/9 2015</h3>
+			<p>Tags, tags, tags, tags, tags, tags, tags, tags, tags, tags and tags.</p>
+		</div>
+		<div class="extra-info">
+			<p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
+		</div>
+	</div>
+	<div class="cv-part">
+		<div class="main-info">
+			<img src="http://placekitten.com/g/300/300" />
+			<div class="main-info-text">
+				<h2>Company</h2>
+				<h3>August 13 2014 - September 19 2015</h3>
+				<p>Tags, tags, tags, tags and tags.</p>
+			</div>
+			<div class="main-info-description">
+				<p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
+			</div>
+			<div class="extra-info">
+				<p>Some extra info that will show up once life gets good.</p>
+			</div>
+		</div>
 	</div>
 	<div class="cv-part">
 		<div class="main-info">
@@ -35,6 +62,118 @@
 
 	<div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
 		<img src="http://placekitten.com/g/300/300" />
-		<h2>WORK</h2>
+		<h2 id="work">WORK</h2>
+	</div>
+	<div class="cv-part">
+		<div class="main-info">
+			<img src="http://placekitten.com/g/300/300" />
+			<div class="main-info-text">
+				<h2>Company</h2>
+				<h3>August 13 2014 - September 19 2015</h3>
+				<p>Tags, tags, tags, tags and tags.</p>
+			</div>
+			<div class="main-info-description">
+				<p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
+			</div>
+			<div class="extra-info">
+				<p>Some extra info that will show up once life gets good.</p>
+			</div>
+		</div>
+	</div>
+	<div class="cv-part">
+		<div class="main-info">
+			<img src="http://placekitten.com/g/300/300" />
+			<div class="main-info-text">
+				<h2>Company</h2>
+				<h3>August 13 2014 - September 19 2015</h3>
+				<p>Tags, tags, tags, tags and tags.</p>
+			</div>
+			<div class="main-info-description">
+				<p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
+			</div>
+			<div class="extra-info">
+				<p>Some extra info that will show up once life gets good.</p>
+			</div>
+		</div>
+	</div>
+	<div class="cv-part">
+		<div class="main-info">
+			<img src="http://placekitten.com/g/300/300" />
+			<div class="main-info-text">
+				<h2>Company</h2>
+				<h3>August 13 2014 - September 19 2015</h3>
+				<p>Tags, tags, tags, tags and tags.</p>
+			</div>
+			<div class="main-info-description">
+				<p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
+			</div>
+			<div class="extra-info">
+				<p>Some extra info that will show up once life gets good.</p>
+			</div>
+		</div>
+	</div>
+	<div class="cv-part">
+		<div class="main-info">
+			<img src="http://placekitten.com/g/300/300" />
+			<div class="main-info-text">
+				<h2>Company</h2>
+				<h3>August 13 2014 - September 19 2015</h3>
+				<p>Tags, tags, tags, tags and tags.</p>
+			</div>
+			<div class="main-info-description">
+				<p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
+			</div>
+			<div class="extra-info">
+				<p>Some extra info that will show up once life gets good.</p>
+			</div>
+		</div>
+	</div>
+	<div class="cv-part">
+		<div class="main-info">
+			<img src="http://placekitten.com/g/300/300" />
+			<div class="main-info-text">
+				<h2>Company</h2>
+				<h3>August 13 2014 - September 19 2015</h3>
+				<p>Tags, tags, tags, tags and tags.</p>
+			</div>
+			<div class="main-info-description">
+				<p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
+			</div>
+			<div class="extra-info">
+				<p>Some extra info that will show up once life gets good.</p>
+			</div>
+		</div>
+	</div>
+	<div class="cv-part">
+		<div class="main-info">
+			<img src="http://placekitten.com/g/300/300" />
+			<div class="main-info-text">
+				<h2>Company</h2>
+				<h3>August 13 2014 - September 19 2015</h3>
+				<p>Tags, tags, tags, tags and tags.</p>
+			</div>
+			<div class="main-info-description">
+				<p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
+			</div>
+			<div class="extra-info">
+				<p>Some extra info that will show up once life gets good.</p>
+			</div>
+		</div>
+	</div>
+	<div class="cv-part">
+		<div class="main-info">
+			<img src="http://placekitten.com/g/300/300" />
+			<div class="main-info-text">
+				<h2>Company</h2>
+				<h3>August 13 2014 - September 19 2015</h3>
+				<p>Tags, tags, tags, tags and tags.</p>
+			</div>
+			<div class="main-info-description">
+				<p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
+			</div>
+			<div class="extra-info">
+				<p>Some extra info that will show up once life gets good.</p>
+			</div>
+		</div>
 	</div>
 </div>

@@ -1,0 +1,22 @@
+[
+    {
+        "education": {
+            "name": "Tyresö Gymnasium",
+            "startTime": "Aug 2005",
+            "endTime": "May 2008",
+            ""
+        },
+        "work": [
+        ],
+        "id": "portfolio", 
+        "title": "My new portfolio", 
+        "thumbUrl": "img/projects/testProject.jpeg",
+        "tags": [
+            "Personal",
+            "KTH",
+            "Web",
+            "AngularJS"
+        ],
+        "snippet": "Crazy project that I've done..."
+    }
+]

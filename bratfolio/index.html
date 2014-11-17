@@ -25,7 +25,7 @@
 
 <body>
     <header ng-class="{'orange-header': setOrange, 'green-header': setGreen, 'pink-header': setPink}">
-        <h1 id="header-text" id="top">BRATFOLIO</h1>
+        <h1 id="header-text">BRATFOLIO</h1>
     </header>
     <div id="sticky-anchor"></div>
     <nav id="sticky">
@@ -43,6 +43,11 @@
     <div class="view-container">
         <div ng-view class="view-frame"></div>
     </div>
+
+    <div id="perm-scroll-container">
+        <a id="perm-top-scroll" ng-class="{'orange-header': setOrange, 'green-header': setGreen, 'pink-header': setPink}" href="#header-text" du-smooth-scroll du-scrollspy>UP</a>
+    </div>
+
     <!--
     <footer ng-class="{'orange-header': setOrange, 'green-header': setGreen, 'pink-header': setPink}">
         <p id="footer-text">Copyright 2014 - Jesper Bratt</p>
@@ -56,7 +61,7 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-scroll/angular-scroll.js"></script>
     <script src="main.js"></script>
-    <script src="partials/portfolio.js"></script> <!-- Portfolio Controller -->
 </body>
 </html>
