@@ -7,65 +7,72 @@ angular.module('bratfolio', [
   'duScroll'
   ])
 
-.config(['$routeProvider', function ($routeProvider) {
-	$routeProvider
-    .when('/', {
-        templateUrl: 'partials/home.html',
-        controller: 'MainCtrl'
-    })
-    .when('/intro', {
-        templateUrl: 'partials/intro.html',
-        controller: 'MainCtrl'
-    })
-    .when('/cv', {
-        templateUrl: 'partials/cv.html',
-        controller: 'CVCtrl'
-    })
-    .when('/portfolio', {
-        templateUrl: 'partials/portfolio.html',
-        controller: 'PortfolioCtrl'
-    })
-    .when('/projects/:projectId', {
-        templateUrl: 'partials/project.html',
-        controller: 'ProjectCtrl'
-    })
-    .otherwise({
-        redirectTo: '/'
-    });
+.config(['$routeProvider',
+    function ($routeProvider) {
+        $routeProvider
+            .when('/', {
+                templateUrl: 'partials/home.html',
+                controller: 'MainCtrl'
+            })
+            .when('/intro', {
+                templateUrl: 'partials/intro.html',
+                controller: 'MainCtrl'
+            })
+            .when('/cv', {
+                templateUrl: 'partials/cv.html',
+                controller: 'CVCtrl'
+            })
+            .when('/portfolio', {
+                templateUrl: 'partials/portfolio.html',
+                controller: 'PortfolioCtrl'
+            })
+            .when('/projects/:projectId', {
+                templateUrl: 'partials/project.html',
+                controller: 'ProjectCtrl'
+            })
+            .otherwise({
+                redirectTo: '/'
+            });
 }])
 
-.controller('MainCtrl', ['$scope', function($scope) {
+.controller('MainCtrl', ['$scope',
+    function ($scope) {
 
 }])
 
-.controller('CVCtrl', ['$scope', function($scope) {
+.controller('CVCtrl', ['$scope',
+    function ($scope) {
 
 }])
 
-.controller('PortfolioCtrl', ['$scope', '$http', 
-    function($scope, $http) {
-        $http.get('data/projects.json').success( function(data) {
+.controller('PortfolioCtrl', ['$scope', '$http',
+    function ($scope, $http) {
+        $http.get('data/projects.json').success(function (data) {
             $scope.projects = data;
         });
 
-        $http.get('http://baconipsum.com/api/?type=all-meat&paras=1').success( function(data) {
+        $http.get('data/cv.json').success(function (data) {
+            $scope.cv = data;
+        });
+
+        $http.get('http://baconipsum.com/api/?type=all-meat&paras=1').success(function (data) {
             $scope.bacon = data;
         });
 }])
 
-.controller('ProjectCtrl', ['$scope', '$routeParams', '$http', 
-    function($scope, $routeParams, $http) {
-        $http.get('data/projects/' + $routeParams.projectId + '.json').success(function(data) {
+.controller('ProjectCtrl', ['$scope', '$routeParams', '$http',
+    function ($scope, $routeParams, $http) {
+        $http.get('data/projects/' + $routeParams.projectId + '.json').success(function (data) {
             console.log(data);
             $scope.project = data;
         });
-        
+
         $scope.projectId = $routeParams.projectId;
 }]);
 
 function expandInfo(el) {
     $(el).find('.extra-info').slideToggle("slow");
-};
+}
 
 // Making the menu stick
 function stickyRelocate() {
@@ -92,7 +99,7 @@ function stickyRelocate() {
             "opacity": "0"
         });
     }
-};
+}
 
 $(function () {
     $(window).scroll(stickyRelocate);
@@ -100,7 +107,7 @@ $(function () {
 });
 
 $(function () {
-    $(window).resize(function() {
+    $(window).resize(function () {
         $('#sticky').css("width", "100%");
         $('#sticky-cv').css("width", "100%");
     });

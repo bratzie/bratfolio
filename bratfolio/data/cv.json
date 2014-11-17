@@ -1,22 +1,179 @@
 [
     {
-        "education": {
-            "name": "Tyresö Gymnasium",
-            "startTime": "Aug 2005",
-            "endTime": "May 2008",
-            ""
-        },
+        "education": [
+            {
+                "name": "KTH Royal Institute of Technology",
+                "thumbUrl": "img/projects/testProject.jpeg",
+                "tags": [
+                    "CS",
+                    "HCI"
+                ],
+                "startTime": "August 2009",
+                "endTime": "June 2015",
+                "description": "Bachelor's and Master's degree (Civilingenjör) in Computer Science. Focus on Human-Computer Interaction (HCI). It took slightly longer than expected, but I quickly realized that contributing to the chapter was worth every last second spent.",
+                "snippet": "Education and extra-curricular activities rock!",
+                "achievements": [
+                    "Klubbmästare DKM",
+                    "Infomästare DKM",
+                    "Project Manager, studs14",
+                    "Drifveriet",
+                    "Dadderiet",
+                    "PR, dJubileet",
+                    "Kårfullmäktige",
+                    "Spexmästare",
+                    "Prylmånglare",
+                    "THS Radio",
+                    "MetaSpexet"
+                ]
+            },
+            {
+                "name": "Tyresö Gymnasium",
+                "thumbUrl": "img/projects/testProject.jpeg",
+                "tags": [
+                    "High School",
+                    "Technics",
+                    "UF"
+                ],
+                "startTime": "Aug 2005",
+                "endTime": "May 2008",
+                "description": "Studied for 3 years, as most people do, while at the same time starting and finishing the UF (Young Entrepreneurship) company called Sea Inventions. We finished top 3 in 3 categories within the Stockholm region. Best Product (1st), Best Showcase (1st) and Best Webpage (3rd). We also won some local competitions.",
+                "snippet": "This is where I realized I wanted to continue at KTH.",
+                "achievements": [
+                    "Sea Inventions UF",
+                    "Organized the student's ball",
+                    "Started a band"
+                ]
+            },
+            {
+                "name": "EBS Bartender School",
+                "thumbUrl": "img/projects/testProject.jpeg",
+                "tags": [
+                    "Bartending",
+                    "Flairtending",
+                    "Freepour"
+                ],
+                "startTime": "May 2009",
+                "endTime": "June 2009",
+                "description": "Intense one-month course during the summer of 2009. Head of education was Johannes Kinch. Finished with highest possible grades and had an overall awesome and evolving experience. Towards the end I almost understood danish!",
+                "snippet": "Went on a one-month summer course.",
+                "achievements": [
+                    ""
+                ]
+            }
+        ],
         "work": [
-        ],
-        "id": "portfolio", 
-        "title": "My new portfolio", 
-        "thumbUrl": "img/projects/testProject.jpeg",
-        "tags": [
-            "Personal",
-            "KTH",
-            "Web",
-            "AngularJS"
-        ],
-        "snippet": "Crazy project that I've done..."
+            {
+                "name": "Spotify",
+                "thumbUrl": "img/projects/testProject.jpeg",
+                "tags": [
+                    "Employer Branding",
+                    "Marketing",
+                    "Events",
+                    "Teamwork"
+                ],
+                "startTime": "August 2013",
+                "endTime": "September 2014",
+                "description": "Making sure that the relations between Spotify and KTH stay awesome! Worked on the Student TechFest among other huge events which made sure that everyone studying at KTH will consider Spotify their top employer when they graduate. I also helped develop their street team program.",
+                "snippet": "Joined the band, spread the word and had a blast.",
+                "achievements": [
+                    "Organize events",
+                    "Meeting students",
+                    "Meet awesome people",
+                    "Join the Band"
+                ]
+            },
+            {
+                "name": "IT, Swedish Trade Federation",
+                "thumbUrl": "img/projects/testProject.jpeg",
+                "tags": [
+                    "IT-management",
+                    "Communication",
+                    "Support",
+                    "Hardware",
+                    "Software",
+                    "Service",
+                    "Repairs"
+                ],
+                "startTime": "February 2012",
+                "endTime": "Present",
+                "description": "Making sure that computers, as well as everything revolving around them, works flawlessly for the employees at Svensk Handel. Anything and everything between reconfiguring networks and servers and searching for errors in different environments to making sure the computers and gadgets are actually plugged into the sockets.",
+                "snippet": "I love helping people, better yet, making them understand.",
+                "achievements": [
+                    "Repair an iPhone",
+                    "Patching network cables",
+                    "Coding a ticket system in Access..."
+                ]
+            },
+            {
+                "name": "Klubbmästare DKM",
+                "thumbUrl": "img/projects/testProject.jpeg",
+                "tags": [
+                    "Leadership",
+                    "Structure",
+                    "Group Dynamics",
+                    "Graphics",
+                    "Economics",
+                    "Communication"
+                ],
+                "startTime": "December 2009",
+                "endTime": "July 2013",
+                "description": "Responsible for the overall organization and leadership within DKM (Datas Klubbmästeri). DKM is a group of students at the computer science chapter of KTH that arrange weekly pubs as well as other major events for the students of the chapter. Before taking charge as klubbmästare, I was responsible for all graphics produced by DKM.",
+                "snippet": "",
+                "achievements": [
+                    ""
+                ]
+            },
+            {
+                "name": "Art Director, Univeristy Star League",
+                "thumbUrl": "img/projects/testProject.jpeg",
+                "tags": [
+                    "Graphics",
+                    "Large Group",
+                    "Deadlines",
+                    "Project Evolution",
+                    "Project Realization"
+                ],
+                "startTime": "September 2012",
+                "endTime": "March 2014",
+                "description": "In charge of every piece of graphics seen, as well as the look and feel of the production, in the first season of University Star League (a Starcraft 2 tournament for university students in Sweden). Among what was produced was a webpage, overlays for the livestream, advertisement (mousepads, posters, awards, cheques). I also acted as a graphical consultant for the entire production.",
+                "snippet": "",
+                "achievements": [
+                    ""
+                ]
+            },
+            {
+                "name": "Teknikmagasinet",
+                "thumbUrl": "img/projects/testProject.jpeg",
+                "tags": [
+                    "Routines",
+                    "Service-Mindedness",
+                    "Customer Service",
+                    "Marketing",
+                    "Salesmanship"
+                ],
+                "startTime": "November 2008",
+                "endTime": "April 2009",
+                "description": "In-store salesman selling cool gadgets, gifts and other technical stuff over the counter.",
+                "snippet": "",
+                "achievements": [
+                    ""
+                ]
+            },
+            {
+                "name": "Graphical Artist, Bratt Trading",
+                "thumbUrl": "img/projects/testProject.jpeg",
+                "tags": [
+                    "Graphics",
+                    "Creativity"
+                ],
+                "startTime": "September 2008",
+                "endTime": "November 2008",
+                "description": "Designed and created their product catalogue for 2009.",
+                "snippet": "",
+                "achievements": [
+                    ""
+                ]
+            }
+        ]
     }
 ]
