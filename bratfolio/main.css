@@ -430,7 +430,7 @@ footer {
     text-decoration: none !important;
     z-index: 2;
     white-space: nowrap;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .cv-nav-list > li a:hover {
@@ -438,19 +438,33 @@ footer {
     border-bottom: 5px solid #1FC150;
 }
 
-.cv-part {
-    width: 48%;
+.cv-list-wrapper {
+    text-align: center;
+}
+
+.cv-list {
+    list-style: none;
+    text-align: center;
+}
+
+.cv-list li {
     display: inline-block;
     vertical-align: top;
+    width: 46%;
+    text-align: left;
+}
+
+.cv-part {
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(100, 100, 100, 0.2);
     border-bottom: 3px solid rgba(0, 0, 0, 0.2);
-    margin: 10px 5px;
+    margin: 5px 5px;
     transition: 0.5s;
 }
 
 .cv-part:hover {
     border-bottom-color: #1FC150;
+    cursor: pointer;
     /*
     box-shadow: 
         0 15px 20px 10px rgba(0, 0, 0, 0.1);
@@ -462,7 +476,7 @@ footer {
     display: inline-block;
     border-radius: 3px;
     margin: 4px;
-    width: 100px;
+    width: 85px;
 }
 
 .main-info,
@@ -484,6 +498,10 @@ footer {
     display: none;
     padding: 10px;
     text-align: justify;
+}
+
+.cv-tags {
+    font-size: 0.85em;
 }
 
 /*

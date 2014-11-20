@@ -40,8 +40,11 @@ angular.module('bratfolio', [
 
 }])
 
-.controller('CVCtrl', ['$scope',
-    function ($scope) {
+.controller('CVCtrl', ['$scope', '$http',
+    function ($scope, $http) {
+        $http.get('data/cv.json').success(function (data) {
+            $scope.cv = data;
+        });
 
 }])
 
@@ -49,10 +52,6 @@ angular.module('bratfolio', [
     function ($scope, $http) {
         $http.get('data/projects.json').success(function (data) {
             $scope.projects = data;
-        });
-
-        $http.get('data/cv.json').success(function (data) {
-            $scope.cv = data;
         });
 
         $http.get('http://baconipsum.com/api/?type=all-meat&paras=1').success(function (data) {
@@ -71,7 +70,7 @@ angular.module('bratfolio', [
 }]);
 
 function expandInfo(el) {
-    $(el).find('.extra-info').slideToggle("slow");
+    $(el).find('.extra-info').slideToggle("2000000000");
 }
 
 // Making the menu stick
@@ -101,14 +100,15 @@ function stickyRelocate() {
     }
 }
 
-$(function () {
-    $(window).scroll(stickyRelocate);
-    stickyRelocate();
-});
+$(document).ready(function () {
+    $(function () {
+        $(window).scroll(stickyRelocate);
+    });
 
-$(function () {
-    $(window).resize(function () {
-        $('#sticky').css("width", "100%");
-        $('#sticky-cv').css("width", "100%");
+    $(function () {
+        $(window).resize(function () {
+            $('#sticky').css("width", "100%");
+            $('#sticky-cv').css("width", "100%");
+        });
     });
 });

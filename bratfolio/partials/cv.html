@@ -18,170 +18,48 @@
         <img src="http://placekitten.com/g/300/300" />
         <h2 id="education">EDUCATION</h2>
     </div>
-    <li ng-repeat="ed in education">
-        <div class="cv-part" onClick="expandInfo(this)">
-            <img src="http://placekitten.com/g/300/300" />
-            <div class="main-info">
-                <h2>{{ed.name}}</h2>
-                <h3>{{ed.startTime}} - {{ed.endTime}}</h3>
-                <p><span ng-repeat="tag in ed.tags">{{tag}} </span>
-                </p>
-            </div>
-            <div class="extra-info">
-                <p>{{ed.description}}</p>
-                <ul>
-                    <li ng-repeat="achieve in cv.achievements">{{achieve}}</li>
-                </ul>
-            </div>
-        </div>
-    </li>
-    <div class="cv-part">
-        <div class="main-info">
-            <img src="http://placekitten.com/g/300/300" />
-            <div class="main-info-text">
-                <h2>Company</h2>
-                <h3>August 13 2014 - September 19 2015</h3>
-                <p>Tags, tags, tags, tags and tags.</p>
-            </div>
-            <div class="main-info-description">
-                <p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
-            </div>
-            <div class="extra-info">
-                <p>Some extra info that will show up once life gets good.</p>
-            </div>
-        </div>
+    <div class="cv-list-wrapper">
+        <ul class="cv-list">
+            <li ng-repeat="el in cv.education">
+                <div class="cv-part" onClick="expandInfo(this)">
+                    <img src="http://placekitten.com/g/300/300" />
+                    <div class="main-info">
+                        <h3>{{el.name}}</h3>
+                        <h4>{{el.startTime}} - {{el.endTime}}</h4>
+                        <p class="cv-tags"><span ng-repeat="tag in el.tags">{{tag}}<span ng-show=" ! $last ">, </span><span ng-show="$last ">.</span></span>
+                        </p>
+                    </div>
+                    <div class="extra-info">
+                        <p>{{el.description}}</p>
+                        <ul>
+                            <li ng-repeat="achievement in el.achievements">{{achievement}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </div>
-    <div class="cv-part">
-        <div class="main-info">
-            <img src="http://placekitten.com/g/300/300" />
-            <div class="main-info-text">
-                <h2>Company</h2>
-                <h3>August 13 2014 - September 19 2015</h3>
-                <p>Tags, tags, tags, tags and tags.</p>
-            </div>
-            <div class="main-info-description">
-                <p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
-            </div>
-            <div class="extra-info">
-                <p>Some extra info that will show up once life gets good.</p>
-            </div>
-        </div>
-    </div>
-
     <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
         <img src="http://placekitten.com/g/300/300" />
         <h2 id="work">WORK</h2>
     </div>
-    <div class="cv-part">
-        <div class="main-info">
-            <img src="http://placekitten.com/g/300/300" />
-            <div class="main-info-text">
-                <h2>Company</h2>
-                <h3>August 13 2014 - September 19 2015</h3>
-                <p>Tags, tags, tags, tags and tags.</p>
+    <ul class="cv-list">
+        <li ng-repeat="el in cv.work">
+            <div class="cv-part" onClick="expandInfo(this)">
+                <img src="http://placekitten.com/g/300/300" />
+                <div class="main-info">
+                    <h3>{{el.name}}</h3>
+                    <h4>{{el.startTime}} - {{el.endTime}}</h4>
+                    <p class="cv-tags"><span ng-repeat="tag in el.tags">{{tag}}<span ng-show=" ! $last ">, </span><span ng-show="$last ">.</span></span>
+                    </p>
+                </div>
+                <div class="extra-info">
+                    <p>{{el.description}}</p>
+                    <ul>
+                        <li ng-repeat="achievement in el.achievements">{{achievement}}</li>
+                    </ul>
+                </div>
             </div>
-            <div class="main-info-description">
-                <p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
-            </div>
-            <div class="extra-info">
-                <p>Some extra info that will show up once life gets good.</p>
-            </div>
-        </div>
-    </div>
-    <div class="cv-part">
-        <div class="main-info">
-            <img src="http://placekitten.com/g/300/300" />
-            <div class="main-info-text">
-                <h2>Company</h2>
-                <h3>August 13 2014 - September 19 2015</h3>
-                <p>Tags, tags, tags, tags and tags.</p>
-            </div>
-            <div class="main-info-description">
-                <p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
-            </div>
-            <div class="extra-info">
-                <p>Some extra info that will show up once life gets good.</p>
-            </div>
-        </div>
-    </div>
-    <div class="cv-part">
-        <div class="main-info">
-            <img src="http://placekitten.com/g/300/300" />
-            <div class="main-info-text">
-                <h2>Company</h2>
-                <h3>August 13 2014 - September 19 2015</h3>
-                <p>Tags, tags, tags, tags and tags.</p>
-            </div>
-            <div class="main-info-description">
-                <p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
-            </div>
-            <div class="extra-info">
-                <p>Some extra info that will show up once life gets good.</p>
-            </div>
-        </div>
-    </div>
-    <div class="cv-part">
-        <div class="main-info">
-            <img src="http://placekitten.com/g/300/300" />
-            <div class="main-info-text">
-                <h2>Company</h2>
-                <h3>August 13 2014 - September 19 2015</h3>
-                <p>Tags, tags, tags, tags and tags.</p>
-            </div>
-            <div class="main-info-description">
-                <p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
-            </div>
-            <div class="extra-info">
-                <p>Some extra info that will show up once life gets good.</p>
-            </div>
-        </div>
-    </div>
-    <div class="cv-part">
-        <div class="main-info">
-            <img src="http://placekitten.com/g/300/300" />
-            <div class="main-info-text">
-                <h2>Company</h2>
-                <h3>August 13 2014 - September 19 2015</h3>
-                <p>Tags, tags, tags, tags and tags.</p>
-            </div>
-            <div class="main-info-description">
-                <p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
-            </div>
-            <div class="extra-info">
-                <p>Some extra info that will show up once life gets good.</p>
-            </div>
-        </div>
-    </div>
-    <div class="cv-part">
-        <div class="main-info">
-            <img src="http://placekitten.com/g/300/300" />
-            <div class="main-info-text">
-                <h2>Company</h2>
-                <h3>August 13 2014 - September 19 2015</h3>
-                <p>Tags, tags, tags, tags and tags.</p>
-            </div>
-            <div class="main-info-description">
-                <p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
-            </div>
-            <div class="extra-info">
-                <p>Some extra info that will show up once life gets good.</p>
-            </div>
-        </div>
-    </div>
-    <div class="cv-part">
-        <div class="main-info">
-            <img src="http://placekitten.com/g/300/300" />
-            <div class="main-info-text">
-                <h2>Company</h2>
-                <h3>August 13 2014 - September 19 2015</h3>
-                <p>Tags, tags, tags, tags and tags.</p>
-            </div>
-            <div class="main-info-description">
-                <p>Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop! Did stuff, had fun, woop woop woop!</p>
-            </div>
-            <div class="extra-info">
-                <p>Some extra info that will show up once life gets good.</p>
-            </div>
-        </div>
-    </div>
+        </li>
+    </ul>
 </div>
