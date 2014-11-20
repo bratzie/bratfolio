@@ -7,6 +7,9 @@ angular.module('bratfolio', [
   'duScroll'
   ])
 
+
+.value('duScrollOffset', 170)
+
 .config(['$routeProvider',
     function ($routeProvider) {
         $routeProvider
@@ -70,7 +73,7 @@ angular.module('bratfolio', [
 }]);
 
 function expandInfo(el) {
-    $(el).find('.extra-info').slideToggle("2000000000");
+    $(el).find('.extra-info').slideToggle("slow");
 }
 
 // Making the menu stick

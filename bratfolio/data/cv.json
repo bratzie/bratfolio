@@ -4,8 +4,8 @@
             "name": "KTH Royal Institute of Technology",
             "thumbUrl": "img/projects/testProject.jpeg",
             "tags": [
-                "CS",
-                "HCI"
+                "Computer Science",
+                "Human Computer Interaction"
             ],
             "startTime": "August 2009",
             "endTime": "June 2015",
@@ -174,12 +174,62 @@
             ]
         }
     ],
-    "skills": {
-        "HCI": [
-            "Creative Design",
-            "Interaction Design"
-        ],
-        "CS": [],
-        "other": []
+    "core": {
+        "Interaction Design": "5",
+        "JS, HTML, CSS": "4",
+        "Graphics": "5"
+    },
+    "skills": [
+        {
+            "title": "HCI",
+            "tags": [
+                "Interaction Design",
+                "Creative Design",
+                "User Experience",
+                "User Interface Design",
+                "User Studies",
+                "Evaluation",
+                "Multimodal Design",
+                "Graphics",
+                "Art Directing"
+            ]
+        },
+        {
+            "title": "CS",
+            "tags": [
+                "Java",
+                "JavaScript",
+                "CSS",
+                "HTML",
+                "Git",
+                "Angular",
+                "Ruby",
+                "Python",
+                "SQL"
+            ]
+        },
+        {
+            "title": "Miscellaneous",
+            "tags": [
+                "Communication",
+                "Coordination",
+                "Leadership",
+                "Management",
+                "Marketing",
+                "Sales",
+                "Bartending",
+                "Drumming"
+            ]
+        }
+    ],
+    "software": {
+        "Brackets": "Front-end editor of choice.",
+        "Adobe Creative Suite": "When I do graphics.",
+        "IntelliJ": "When I need to go deeper."
+    },
+    "languages": {
+        "Swedish": "Fluent",
+        "English": "Fluent - CAE Certificate",
+        "Google Translate": "Master"
     }
 }

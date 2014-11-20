@@ -23,7 +23,9 @@ html, body, div, span,
         margin: 0px;
         padding: 0px;
     }
-
+html {
+    overflow-y: scroll;
+}
 body {
     background-color: #eeeeee;
     background-image: url('img/pixel_weave.png');
@@ -143,19 +145,19 @@ h1, h2, h3, h4, h5, h6 {
     width: 90%;
     text-align: center;
     margin: 5px auto;
+    margin-top: 30px;
     border-bottom: 3px solid #fff;
     transition: 2s;
 }
 
-.header-line img,
+.header-line span,
 .header-line h2 {
     vertical-align: middle;
-    display: inline-block;
 }
 
-.header-line img {
-    width: 30px;
-    height: 30px;   
+.header-line span {
+    font-size: 2.5em;
+    padding-bottom: -10px;
 }
 
 .header-line h2 {
@@ -198,6 +200,21 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     z-index: 25000;
     text-align: center;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.squeeze {
+    width: 65%;
+    margin: 0px auto;
+}
+
+.align-left {
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
 }
 
 /*
@@ -442,6 +459,11 @@ footer {
     text-align: center;
 }
 
+.active {
+    color: #1FC150;
+    border-bottom: 5px solid #1FC150;
+}
+
 .cv-list {
     list-style: none;
     text-align: center;
@@ -465,11 +487,6 @@ footer {
 .cv-part:hover {
     border-bottom-color: #1FC150;
     cursor: pointer;
-    /*
-    box-shadow: 
-        0 15px 20px 10px rgba(0, 0, 0, 0.1);
-    transform: scale(1.01);
-    */
 }
 
 .cv-part img {
@@ -477,6 +494,19 @@ footer {
     border-radius: 3px;
     margin: 4px;
     width: 85px;
+}
+
+.cv-part-light {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(100, 100, 100, 0.1);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+    margin: 5px 5px;
+    transition: 0.5s; 
+}
+
+.cv-part-light:hover {
+    color: rgba(0, 0, 0, 0.2);
+    
 }
 
 .main-info,
@@ -487,7 +517,8 @@ footer {
     overflow: hidden;
 }
 
-.main-info p {
+.cv-tags {
+    font-size: 0.85em;
     color: #888888;
     margin-bottom: 0px;
 }
@@ -500,8 +531,39 @@ footer {
     text-align: justify;
 }
 
-.cv-tags {
+.achievements {
+    color: #888888;
     font-size: 0.85em;
+}
+
+.cv-focus {
+    margin: 30px 0px;
+}
+
+.core-skill {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #363636;
+    transition: 0.3s;
+}
+
+.core-skill:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: default;
+}
+
+.core-skill h2,
+.core-skill h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.core-skill h3, .core-skill h4 {
+    opacity: 0.7;
+    color: #1FC150;
+}
+
+.sub-skill {
+    opacity: 0.8;
 }
 
 /*
