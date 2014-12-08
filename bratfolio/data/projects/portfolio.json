@@ -5,28 +5,42 @@
         "img/projects/testProject1.jpeg", 
         "img/projects/testProject2.jpeg"
     ], 
-    "title": "Awesome Portfolio",
-    "skills": [
-        "Layouting",
-        "Design",
-        "Front end development"
+    "title": "This Awesome Portfolio",
+    "details": [
+        {
+            "title": "Skills",
+            "tags": [
+                "Layouting",
+                "Design",
+                "Front end development"
+            ]
+        },
+        {
+            "title": "Software",
+            "tags": [
+                "Adobe Photoshop",
+                "Sublime Text 3",
+                "Brackets"
+            ]
+        },
+        {
+            "title": "Technology",
+            "tags": [
+                "Angular",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "jQuery",
+                "node",
+                "bower",
+                "git"
+            ]
+        }
     ],
-    "software": [
-        "Adobe Photoshop",
-        "Sublime Text 3"
-    ],
-    "technology": [
-        "Angular",
-        "HTML",
-        "CSS",
-        "Javascript",
-        "jQuery",
-        "git"
-    ],
-    "information": {
+    "facts": {
         "date": "October 2014", 
         "author": "Bratzie", 
         "time": "7 days"
     }, 
-    "description": "Made my portfolio, and at the same time I rocked some cool new frameworks and played around to get slightly sharper at what I'm doing. Oh, also, awesome for showing off!"
+    "description": "Made my portfolio, and at the same time I rocked some cool new frameworks and played around to get slightly sharper at what I'm doing. Oh, also, awesome for showing off! Half-way through the project I switched from Sublime Text 3 to Brackets as my main text editor, and so far I love it."
 }

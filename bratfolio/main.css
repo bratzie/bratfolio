@@ -80,6 +80,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px auto;
 }
 
+.outer-container {
+    width: 100%;
+    height: 100%;
+}
+
 .image-container {
     clear: both;
     text-align: center;
@@ -168,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #425FC8;
     margin: auto auto;
     position: fixed;
+    left: 47.8%;
     bottom: -60px;
 
     border-radius: 50px;
@@ -211,10 +217,20 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px auto;
 }
 
+.less-squeezed {
+    width: 80%;
+    margin: 0px auto;
+}
+
 .align-left {
     text-align: left;
     list-style: none;
     text-decoration: none;
+}
+
+.highlighted {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 /*
@@ -377,7 +393,7 @@ footer {
 }
 
 .navigation > li a:hover {
-    border-left: 10px solid #363636
+    border-left: 10px solid #363636;
 }
 
 /*
@@ -506,7 +522,6 @@ footer {
 
 .cv-part-light:hover {
     color: rgba(0, 0, 0, 0.2);
-    
 }
 
 .main-info,
@@ -588,13 +603,13 @@ footer {
     width: 200px;
     height: 200px;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 1px solid #363636;
     background-color: rgba(0, 0, 0, 0.9);
     opacity: 0.8;
     box-shadow: 
-        inset 0 0px 10px 2px rgba(0, 0, 0, 1),
-        0 0px 10px 2px rgba(255, 255, 255, 0.5);
+        inset 0px 0px 10px 2px rgba(0, 0, 0, 1),
+        0px 0px 10px 2px rgba(255, 255, 255, 0.5);
     transition: 0.4s;
 }
 
@@ -602,8 +617,8 @@ footer {
     opacity: 1;
     transform: scale(1.01);
     box-shadow: 
-        inset 0 0px 10px 2px rgba(255, 255, 255, 1),
-        0 0px 10px 2px rgba(0, 0, 0, 0.5);
+        inset 0px 0px 10px 2px rgba(255, 255, 255, 1),
+        0px 5px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .thumb-cover {
@@ -624,7 +639,7 @@ footer {
 
 .thumb-cover a,
 .thumb-cover p {
-    color: white;
+    color: #fff;
     text-align: left;
     padding: 10px;
 }
@@ -637,7 +652,7 @@ footer {
 }
 
 .thumb-cover p {
-    font-size: 12px;
+    font: 12px Helvetica, Sans-Serif; 
 }
 
 .thumb-cover-left {
@@ -648,13 +663,13 @@ footer {
 .thumb-cover-right {
     width: 20%;
     float: right;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .thumb-cover-right img {
+    height: 30px;
     margin: auto 0px;
-    opacity: 0.5;
-    transform: rotate(90deg);
+    transform: rotate(180deg);
 }
 
 /*
@@ -663,27 +678,64 @@ footer {
 
 .project-preview li {
     display: inline-block;
-    margin: 10px;
-    width: 100px;
-    height: 100px;
+    margin: 2px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(100, 100, 100, 0.2);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.2);
+    margin: 5px 5px;
+    transition: 0.5s;
+}
+
+.project-preview li:hover {
+    border-bottom-color: #FFAED2;
 }
 
 .project-preview img {
     height: inherit;
     width: inherit;
-    opacity: 0.5;
-    box-shadow:
-        inset 0 0px 10px 2px rgba(0, 0, 0, 1),
-        0 0px 10px 2px rgba(255, 255, 255, 0.5);
-    transition: 0.4s;
+    opacity: 0.8;
+    transition: 0.5s;
 }
 
 .project-preview img:hover {
-    size: 1.1;
+    size: 1.05;
     opacity: 1;
-    box-shadow: 
-        inset 0 0px 10px 2px rgba(255, 255, 255, 1),
-        0 0px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.project-description {
+    display: inline-block;
+    width: 70%;
+    text-align: justify;
+}
+
+.project-facts {
+    float: right;
+    display: inline-block;
+    width: 25%;
+}
+
+#back-to-projects {
+    float: left;
+    cursor: pointer;
+    height: 100%;
+    width: 40px;
+    background-color: #FFAED2;
+    opacity: 0.4;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+#back-to-projects:hover {
+    opacity: 1;
+}
+
+#back-to-projects a {
+    height: fill;
+}
+
+#back-to-projects img {
+    width: 40px;
 }
 
 /*
@@ -741,30 +793,30 @@ footer {
 .project-thumb.ng-enter,
 .project-thumb.ng-leave,
 .project-thumb.ng-move {
-  -webkit-transition: 0.5s linear all;
-  -moz-transition: 0.5s linear all;
-  -o-transition: 0.5s linear all;
-  transition: 0.5s linear all;
+    -webkit-transition: 0.5s linear all;
+    -moz-transition: 0.5s linear all;
+    -o-transition: 0.5s linear all;
+    transition: 0.5s linear all;
 }
 
 .project-thumb.ng-enter,
 .project-thumb.ng-move {
-  opacity: 0;
-  overflow: hidden;
+    opacity: 0;
+    overflow: hidden;
 }
 
 .project-thumb.ng-move.ng-move-active,
 .project-thumb.ng-enter.ng-enter-active {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 .project-thumb.ng-leave {
-  opacity: 0.8;
-  overflow: hidden;
+    opacity: 0.8;
+    overflow: hidden;
 }
 
 .project-thumb.ng-leave.ng-leave-active {
-  opacity: 0;
+    opacity: 0;
 }
 
 /*
@@ -796,4 +848,77 @@ footer {
 .pink li:hover, 
 .pink-border {
     border-color: #FFAED2 !important;
+}
+
+/* 
+    Cross Hover
+*/
+
+.cl-effect-18 {
+	position: relative;
+	z-index: 1;
+}
+
+.cl-effect-18 a {
+	padding: 0 5px;
+	color: #b4770d;
+	font-weight: 700;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.cl-effect-18 a::before,
+.cl-effect-18 a::after {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	height: 2px;
+	margin-top: -1px;
+	background: #b4770d;
+	content: '';
+	z-index: -1;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	pointer-events: none;
+}
+
+.cl-effect-18 a::before {
+	-webkit-transform: translateY(-20px);
+	-moz-transform: translateY(-20px);
+	transform: translateY(-20px);
+}
+
+.cl-effect-18 a::after {
+	-webkit-transform: translateY(20px);
+	-moz-transform: translateY(20px);
+	transform: translateY(20px);
+}
+
+.cl-effect-18 a:hover,
+.cl-effect-18 a:focus {
+	color: #000;
+}
+
+.cl-effect-18 a:hover::before,
+.cl-effect-18 a:hover::after,
+.cl-effect-18 a:focus::before,
+.cl-effect-18 a:focus::after {
+	opacity: 0.7;
+}
+
+.cl-effect-18 a:hover::before,
+.cl-effect-18 a:focus::before {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.cl-effect-18 a:hover::after,
+.cl-effect-18 a:focus::after {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }

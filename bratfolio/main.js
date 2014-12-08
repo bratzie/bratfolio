@@ -19,7 +19,7 @@ angular.module('bratfolio', [
             })
             .when('/intro', {
                 templateUrl: 'partials/intro.html',
-                controller: 'MainCtrl'
+                controller: 'IntroCtrl'
             })
             .when('/cv', {
                 templateUrl: 'partials/cv.html',
@@ -40,7 +40,12 @@ angular.module('bratfolio', [
 
 .controller('MainCtrl', ['$scope',
     function ($scope) {
+}])
 
+.controller('IntroCtrl', ['$scope',
+    function ($scope) {
+        $scope.setOrange = '1';
+        setOrange();
 }])
 
 .controller('CVCtrl', ['$scope', '$http',
@@ -48,7 +53,9 @@ angular.module('bratfolio', [
         $http.get('data/cv.json').success(function (data) {
             $scope.cv = data;
         });
-
+        
+        $scope.setGreen = '1';
+        setGreen();
 }])
 
 .controller('PortfolioCtrl', ['$scope', '$http',
@@ -60,6 +67,9 @@ angular.module('bratfolio', [
         $http.get('http://baconipsum.com/api/?type=all-meat&paras=1').success(function (data) {
             $scope.bacon = data;
         });
+        
+        $scope.setPink = '1';
+        setPink();
 }])
 
 .controller('ProjectCtrl', ['$scope', '$routeParams', '$http',
@@ -70,11 +80,46 @@ angular.module('bratfolio', [
         });
 
         $scope.projectId = $routeParams.projectId;
+        
+        $scope.setPink = '1';
+        setPink();
 }]);
 
 function expandInfo(el) {
     $(el).find('.extra-info').slideToggle("slow");
 }
+
+/* Temporary 'hack' to fix colors, I know it's horrible */
+function clearColor() {
+    $('header').removeClass('orange-header');
+    $('.menu').removeClass('orange');
+    $('#perm-top-scroll').removeClass('orange-header');
+    $('header').removeClass('green-header');
+    $('.menu').removeClass('green');
+    $('#perm-top-scroll').removeClass('green-header');
+    $('header').removeClass('pink-header');
+    $('.menu').removeClass('pink');
+    $('#perm-top-scroll').removeClass('pink-header');
+}
+
+function setOrange() {
+    $('header').addClass('orange-header');
+    $('.menu').addClass('orange');
+    $('#perm-top-scroll').addClass('orange-header');
+}
+
+function setGreen() {
+    $('header').addClass('green-header');
+    $('.menu').addClass('green');
+    $('#perm-top-scroll').addClass('green-header');
+}
+
+function setPink() {
+    $('header').addClass('pink-header');
+    $('.menu').addClass('pink');
+    $('#perm-top-scroll').addClass('pink-header');
+}
+/* End of ugly temporary 'hack' */
 
 // Making the menu stick
 function stickyRelocate() {
@@ -84,7 +129,7 @@ function stickyRelocate() {
         $('#sticky').addClass('stick').width($(window).width());
         $('#sticky-cv').addClass('stick').width($(window).width());
         $('#sticky-anchor').css("padding", "35px");
-        $('#sticky-cv-anchor').css("padding", "28px");
+        $('#sticky-cv-anchor').css("padding", "26px");
         $('#top-scroll').css("opacity", "1");
         $('#perm-top-scroll').css({
             "bottom": "-20px",

@@ -13,8 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     
     <!-- ICONS -->
     <link rel="stylesheet" href="utils/flaticon.css">
@@ -33,10 +33,10 @@
     <div id="sticky-anchor"></div>
     <nav id="sticky">
         <ul class="menu" ng-class="{orange: setOrange, green: setGreen, pink: setPink}">
-            <li><a class="home-icon" href="#/" ng-click="setOrange=''; setGreen=''; setPink=''">Home</a></li>
-            <li><a href="#/intro" ng-click="setOrange='1'; setGreen=''; setPink=''">Introduction</a></li>
-            <li><a href="#/cv" ng-click="setOrange=''; setGreen='1'; setPink=''">CV</a></li>
-            <li><a href="#/portfolio" ng-click="setOrange=''; setGreen=''; setPink='1'">Portfolio</a></li>
+            <li><a class="home-icon" href="#/" onClick=clearColor() ng-click="setOrange=''; setGreen=''; setPink=''">Home</a></li>
+            <li><a href="#/intro" onClick=clearColor() ng-click="setOrange='1'; setGreen=''; setPink=''">Introduction</a></li>
+            <li><a href="#/cv" onClick=clearColor() ng-click="setOrange=''; setGreen='1'; setPink=''">CV</a></li>
+            <li><a href="#/portfolio" onClick=clearColor() ng-click="setOrange=''; setGreen=''; setPink='1'">Portfolio</a></li>
         </ul>
     </nav>      
 

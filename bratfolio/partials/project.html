@@ -1,23 +1,48 @@
-<div class="container">
 
-	<p>{{projectId}}</p>
-	<p>{{project.title}}</p>
+<div class="outer-container">
+    <div id="back-to-projects">
+    <a href="#/portfolio">
+        <img src="img/arrow.png">   
+    </a>
+    </div>
+    <div class="container">
 
-	<div class="image-container">
-		<ul class="project-preview">
-			<li ng-repeat="img in project.images"><img ng-src="{{img}}"></img></li>
-		</ul>
-	</div>
+        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+            <h2>{{project.title}}</h2>
+        </div>
+        <div class="less-squeezed">
+            <div class="project-description">
+                <p>{{project.description}}</p>
+            </div>
+            <div class="project-facts">
+                <ul>
+                   <li><p><b>Date:</b> {{project.facts.date}}</p></li>
+                   <li><p><b>Author:</b> {{project.facts.author}}</p></li>
+                   <li><p><b>Time:</b> {{project.facts.time}}</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cv-list-wrapper">
+            <ul class="cv-focus">
+                <li ng-repeat="section in project.details" class="columns list sub-skill highlighted">
+                    <hr />
+                    <h2>{{section.title}}</h2>
+                    <div ng-repeat="tag in section.tags">
+                        <p>{{tag}}</p>
+                    </div>
+                    <hr />
+                </li>
+            </ul>
+        </div>
 
-	<div class="columns">
-		<div class="list">
-			<h2>Skills</h2>
-		</div>
-		<div class="list">
-			<h2>Software</h2>
-		</div>
-		<div class="list">
-			<h2>Technology</h2>
-		</div>
-	</div>
+        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+            <span class="flaticon-photo3"></span>
+            <h2>Media</h2>
+        </div>
+        <div class="image-container">
+            <ul class="project-preview">
+                <li ng-repeat="img in project.images"><img ng-src="{{img}}"></img></li>
+            </ul>
+        </div>
+    </div>
 </div>
