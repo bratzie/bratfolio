@@ -1,0 +1,24 @@
+Hover effect more obvious on extra-info. -check
+
+Author > Stakeholder ? -check
+
+Thoughts > Reflections ? -check
+
+Dual-columns below media? (for thoughts, process and links) -check
+
+Core-skills look like headlines to sub-skills. -check
+
+Move core-skills to top.
+
+Keep sub-skills below work.
+
+Core-skills
+Work
+Sub-skills
+Education
+Software
+Language
+
+Update meta-text
+
+Don't have "course" in meta text. Include in summary.

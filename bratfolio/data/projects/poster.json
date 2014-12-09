@@ -1,0 +1,60 @@
+{
+    "id": "poster", 
+    "more": "I'd love me some interactivity. Click here for more!",
+    "images": [
+        "img/projects/poster-1.jpg", 
+        "img/projects/poster-2.jpg", 
+        "img/projects/poster-3.jpg", 
+        "img/projects/poster-4.jpg", 
+        "img/projects/poster-5.jpg", 
+        "img/projects/poster-6.jpg", 
+        "img/projects/poster-7.jpg"
+    ],
+    "header": "img/projects/poster-header.jpg",
+    "title": "Interactive Playgrounds",
+    "details": [
+        {
+            "title": "Skills",
+            "tags": [
+                "Layouting",
+                "Design",
+                "Front end development",
+                "User Evaluation",
+                "Iterative Design"
+            ]
+        },
+        {
+            "title": "Software",
+            "tags": [
+                "Adobe Photoshop",
+                "Sublime Text 3",
+                "Brackets"
+            ]
+        },
+        {
+            "title": "Technology",
+            "tags": [
+                "Angular",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "jQuery",
+                "node",
+                "bower",
+                "git"
+            ]
+        }
+    ],
+    "facts": {
+        "date": "September 2014", 
+        "stakeholder": "KTH", 
+        "time": "4 weeks",
+        "role": "Explorer, Concept, Designer",
+        "team": "Jesper Bratt, Ida Vainionpää"
+    }, 
+    "description": "Made my portfolio, and at the same time I rocked some cool new frameworks and played around to get slightly sharper at what I'm doing. Oh, also, awesome for showing off! Half-way through the project I switched from Sublime Text 3 to Brackets as my main text editor, and so far I love it. This was the final task for the course DH2627, Interaction Design at KTH. However, since I needed some sort of refuge in the stormy sea that is the internet, I probably made more than I needed to.",
+    "reflection": "This is where I write down what I feel about the project.",
+    "process": "This is where the process would be if this project had one.",
+    "links": "Repos and external documentation goes here.",
+    "information": "Here's where I describe my role in the project, the context and who was a part of it."
+}

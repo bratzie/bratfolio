@@ -1,0 +1,58 @@
+{
+    "id": "cozycave", 
+    "more": "Ooh, this sounds interesting. Click here for more!",
+    "images": [
+        "img/projects/cave-1.jpg", 
+        "img/projects/cave-2.jpg", 
+        "img/projects/cave-3.jpg", 
+        "img/projects/cave-4.jpg", 
+        "img/projects/cave-5.png"
+    ],
+    "header": "img/projects/cave-header.jpg",
+    "title": "Cozy Cavern",
+    "details": [
+        {
+            "title": "Skills",
+            "tags": [
+                "Layouting",
+                "Design",
+                "Front end development",
+                "User Evaluation",
+                "Iterative Design"
+            ]
+        },
+        {
+            "title": "Software",
+            "tags": [
+                "Adobe Photoshop",
+                "Sublime Text 3",
+                "Brackets"
+            ]
+        },
+        {
+            "title": "Technology",
+            "tags": [
+                "Angular",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "jQuery",
+                "node",
+                "bower",
+                "git"
+            ]
+        }
+    ],
+    "facts": {
+        "date": "October 2014", 
+        "stakeholder": "Bratzie", 
+        "time": "7 days",
+        "role": "Everything",
+        "team": "Solo"
+    }, 
+    "description": "Made my portfolio, and at the same time I rocked some cool new frameworks and played around to get slightly sharper at what I'm doing. Oh, also, awesome for showing off! Half-way through the project I switched from Sublime Text 3 to Brackets as my main text editor, and so far I love it. This was the final task for the course DH2627, Interaction Design at KTH. However, since I needed some sort of refuge in the stormy sea that is the internet, I probably made more than I needed to.",
+    "reflection": "This is where I write down what I feel about the project.",
+    "process": "This is where the process would be if this project had one.",
+    "links": "Repos and external documentation goes here.",
+    "information": "Here's where I describe my role in the project, the context and who was a part of it."
+}
