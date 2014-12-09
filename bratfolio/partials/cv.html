@@ -1,11 +1,13 @@
 <div id="sticky-cv-anchor"></div>
 <div id="sticky-cv" class="cv-nav">
     <ul class="cv-nav-list">
+        <li><a href="#core" du-smooth-scroll du-scrollspy>Core</a>
+        </li>
         <li><a href="#work" du-smooth-scroll du-scrollspy>Work</a>
         </li>
-        <li><a href="#education" du-smooth-scroll du-scrollspy>Education</a>
-        </li>
         <li><a href="#skills" du-smooth-scroll du-scrollspy>Skills</a>
+        </li>
+        <li><a href="#education" du-smooth-scroll du-scrollspy>Education</a>
         </li>
         <li><a href="#software" du-smooth-scroll du-scrollspy>Software</a>
         </li>
@@ -14,6 +16,22 @@
     </ul>
 </div>
 <div class="container">
+   <div id="core" class="inline">
+        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+            <span class="flaticon-fire"></span>
+            <h2>CORE</h2>
+        </div>
+        <div class="cv-list-wrapper">
+            <ul class="cv-focus">
+                <li ng-repeat="(title, score) in cv.core" class="columns list core-skill">
+                    <hr />
+                    <h2>{{title}}</h2>
+                    <h3>{{score}}/5</h3>
+                    <hr />
+                </li>
+            </ul>
+        </div>
+    </div>
     <div id="work" class="inline">
         <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
             <span class="flaticon-news"></span>
@@ -26,19 +44,35 @@
                     <div class="main-info">
                         <h3>{{el.name}}</h3>
                         <h4>{{el.startTime}} - {{el.endTime}}</h4>
-                        <p class="cv-tags"><span ng-repeat="tag in el.tags">{{tag}}<span ng-show=" ! $last ">, </span><span ng-show="$last ">.</span></span>
+                        <p><span class="cv-tags" ng-repeat="tag in el.tags">{{tag}}<span class="cv-tags" ng-show=" ! $last ">, </span><span class="cv-tags" ng-show="$last ">.</span></span>
                         </p>
                     </div>
                     <div class="extra-info">
                         <p>{{el.description}}</p>
                         <h3>Achievements</h3>
-                        <ul class="achievements">
-                            <li ng-repeat="achievement in el.achievements">{{achievement}}</li>
+                        <ul>
+                            <li ng-repeat="achievement in el.achievements"><span class="achievements">{{achievement}}</span></li>
                         </ul>
                     </div>
                 </div>
             </li>
         </ul>
+    </div>
+    <div id="skills" class="inline">
+        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+            <span class="flaticon-lab"></span>
+            <h2>SKILLS</h2>
+        </div>
+        <div class="cv-list-wrapper">
+            <ul>
+                <li ng-repeat="el in cv.skills" class="columns four-list sub-skill">
+                    <h2>{{el.title}}</h2>
+                    <div ng-repeat="tag in el.tags">
+                            <p>{{tag}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
     <div id="education" class="inline">
         <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
@@ -53,7 +87,7 @@
                         <div class="main-info">
                             <h3>{{el.name}}</h3>
                             <h4>{{el.startTime}} - {{el.endTime}}</h4>
-                            <p class="cv-tags"><span ng-repeat="tag in el.tags">{{tag}}<span ng-show=" ! $last ">, </span><span ng-show="$last ">.</span></span>
+                            <p><span class="cv-tags" ng-repeat="tag in el.tags">{{tag}}<span class="cv-tags" ng-show=" ! $last ">, </span><span class="cv-tags" ng-show="$last ">.</span></span>
                             </p>
                         </div>
                         <div class="extra-info">
@@ -68,30 +102,7 @@
             </ul>
         </div>
     </div>
-    <div id="skills" class="inline">
-        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
-            <span class="flaticon-lab"></span>
-            <h2>SKILLS</h2>
-        </div>
-        <div class="cv-list-wrapper">
-            <ul class="cv-focus">
-                <li ng-repeat="(title, score) in cv.core" class="columns list core-skill">
-                    <hr />
-                    <h2>{{title}}</h2>
-                    <h3>{{score}}/5</h3>
-                    <hr />
-                </li>
-            </ul>
-            <ul>
-                <li ng-repeat="el in cv.skills" class="columns list sub-skill">
-                    <h2>{{el.title}}</h2>
-                    <div ng-repeat="tag in el.tags">
-                            <p>{{tag}}</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
+    
     <div id="software" class="inline">
         <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
             <span class="flaticon-display14"></span>
@@ -112,7 +123,7 @@
     <div id="languages" class="inline">
     <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
         <span class="flaticon-big59"></span>
-        <h2>LANGUAGES</h2>
+        <h2>HUMAN LANGUAGES</h2>
     </div>
     <div class="cv-list-wrapper">
         <ul class="cv-focus">

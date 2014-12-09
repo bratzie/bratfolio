@@ -13,81 +13,48 @@
         "snippet": "Crazy project that I've done... Oh wait, it's this portfolio!"
     }, 
     {
-        "id": "dh2320",
-        "title": "DH2320 Labwork",
+        "id": "gathempire",
+        "title": "Gathempire",
         "date": 20141110,
-        "thumbUrl": "http://placekitten.com/g/300/300",
+        "thumbUrl": "img/projects/gather-thumb.jpg",
         "tags": [
             "KTH",
             "Web",
-            "WebGL",
-            "Graphics"
+            "GPS",
+            "Game",
+            "Commercial",
+            "Gathering",
+            "IxD"
         ],
-        "snippet": "Labs in the DH2320, Introduction to Visualization and Computer Graphics, course at KTH."
+        "snippet": "A game where you collect resources using your GPS, and spend them on upgrading your virtual town."
     }, 
     {
-        "id": "dh2320", 
-        "title": "DH2320 Labwork",
+        "id": "poster", 
+        "title": "Games for Children",
         "date": 20151010,
-        "thumbUrl": "http://placekitten.com/g/500/500",
+        "thumbUrl": "img/projects/poster-thumb.jpg",
         "tags": [
             "KTH",
-            "Web",
-            "WebGL",
-            "Graphics"
+            "Poster",
+            "Explorative",
+            "Graphics",
+            "IxD"
         ],
-        "snippet": "Labs in the DH2320, Introduction to Visualization and Computer Graphics, course at KTH."
+        "snippet": "Explore playgrounds and make them interactive in a fun and intuitive way."
     }, 
     {
-        "id": "dh2320", 
-        "title": "DH2320 Labwork",
+        "id": "cozycave", 
+        "title": "Cozy Cavern",
         "date": 20121010,
-        "thumbUrl": "http://placekitten.com/g/400/400",
+        "thumbUrl": "img/projects/cave-thumb.jpg",
         "tags": [
             "KTH",
-            "Web",
-            "WebGL",
-            "Graphics"
+            "Prototyping",
+            "Responsible",
+            "Blind",
+            "Children",
+            "IxD"
         ],
-        "snippet": "Labs in the DH2320, Introduction to Visualization and Computer Graphics, course at KTH."
-    }, 
-    {
-        "id": "dh2320", 
-        "title": "DH2320 Labwork",
-        "date": 20141010,
-        "thumbUrl": "http://placekitten.com/g/400/400",
-        "tags": [
-            "KTH",
-            "Web",
-            "WebGL",
-            "Graphics"
-        ],
-        "snippet": "Labs in the DH2320, Introduction to Visualization and Computer Graphics, course at KTH."
-    }, 
-    {
-        "id": "dh2320", 
-        "title": "DH2320 Labwork",
-        "date": 20141010,
-        "thumbUrl": "http://placekitten.com/g/400/400",
-        "tags": [
-            "KTH",
-            "Web",
-            "WebGL",
-            "Graphics"
-        ],
-        "snippet": "Labs in the DH2320, Introduction to Visualization and Computer Graphics, course at KTH."
-    }, 
-    {
-        "id": "dh2320", 
-        "title": "DH2320 Labwork",
-        "date": 20141010,
-        "thumbUrl": "http://placekitten.com/g/400/400",
-        "tags": [
-            "KTH",
-            "Web",
-            "WebGL",
-            "Graphics"
-        ],
-        "snippet": "Labs in the DH2320, Introduction to Visualization and Computer Graphics, course at KTH."
+        "snippet": "We designed a pitch-black cave where sighted and non-sighted children play on equal terms."
     }
 ]

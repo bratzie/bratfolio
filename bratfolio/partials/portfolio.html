@@ -19,7 +19,7 @@
 						<div class="thumb-cover-left">
 							<a class="project-title" href="#/projects/{{project.id}}">{{project.title}}</a>
 							<p>{{project.snippet}}</p>
-							<p class="project-tags"><span ng-repeat="tag in project.tags">{{tag}}<span ng-show=" ! $last ">, </span><span ng-show="$last ">.</span></span>
+							<p><span class="project-tags" ng-repeat="tag in project.tags">{{tag}}<span class="project-tags" ng-show=" ! $last ">, </span><span class="project-tags" ng-show="$last ">.</span></span>
                             </p>
 						</div>
 				        <a href="#/projects/{{project.id}}">

@@ -97,7 +97,9 @@ function expandProjectInfo(el) {
 }
 
 /* Temporary 'hack' to fix colors, I know it's horrible */
-function clearColor() {
+
+// add paramter to set color to the passed color
+function setColor() {
     $('header').removeClass('orange-header');
     $('.menu').removeClass('orange');
     $('#perm-top-scroll').removeClass('orange-header');

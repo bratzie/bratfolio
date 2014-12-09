@@ -25,8 +25,7 @@
             </div>
         </div>
         <div class="cv-list-wrapper">
-            <ul class="cv-focus core-skill" onClick="expandProjectInfo(this)">
-                <hr />
+            <ul class="cv-focus core-skill expando-box" onClick="expandProjectInfo(this)">
                 <h2 class="sneaky">{{project.more}}</h2>
                 <div class="extra-info centered">
                     <div class="spacer"> </div>
@@ -37,7 +36,6 @@
                         </div>
                     </li>
                 </div>
-                <hr />
             </ul>
         </div>
 
@@ -51,20 +49,46 @@
             </ul>
         </div>
         
-        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
-            <span class="flaticon-small61"></span>
-            <h2>Thoughts</h2>
-        </div>
-        <div class="less-squeezed">
-            <p>{{project.thoughts}}</p>
+        <div class="centered">
+            <div class="dual-column">
+                <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+                    <span class="flaticon-small61"></span>
+                    <h2>Reflection</h2>
+                </div>
+                <div class="less-squeezed">
+                    <p>{{project.reflection}}</p>
+                </div>
+            </div>
+            <div class="dual-column">
+                <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+                    <span class="flaticon-settings3"></span>
+                    <h2>Process</h2>
+                </div>
+                <div class="less-squeezed">
+                    <p>{{project.process}}</p>
+                </div>
+            </div>
         </div>
         
-        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
-            <span class="flaticon-world5"></span>
-            <h2>Links</h2>
-        </div>
-        <div class="less-squeezed">
-            <p>Insert links here</p>
+        <div class="centered">
+            <div class="dual-column">
+                <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+                    <span class="flaticon-world5"></span>
+                    <h2>Links</h2>
+                </div>
+                <div class="less-squeezed">
+                    <p>{{project.links}}</p>
+                </div>
+            </div>
+            <div class="dual-column">
+                <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+                    <span class="flaticon-news"></span>
+                    <h2>Information</h2>
+                </div>
+                <div class="less-squeezed">
+                    <p>{{project.information}}</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>

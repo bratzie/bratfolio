@@ -34,10 +34,10 @@
     <div id="sticky-anchor"></div>
     <nav id="sticky">
         <ul class="menu" ng-class="{orange: setOrange, green: setGreen, pink: setPink}">
-            <li><a class="home-icon" href="#/" onClick=clearColor() ng-click="setOrange=''; setGreen=''; setPink=''">Home</a></li>
-            <li><a href="#/intro" onClick=clearColor() ng-click="setOrange='1'; setGreen=''; setPink=''">Introduction</a></li>
-            <li><a href="#/cv" onClick=clearColor() ng-click="setOrange=''; setGreen='1'; setPink=''">CV</a></li>
-            <li><a href="#/portfolio" onClick=clearColor() ng-click="setOrange=''; setGreen=''; setPink='1'">Portfolio</a></li>
+            <li><a class="home-icon" href="#/" onClick=setColor() ng-click="setOrange=''; setGreen=''; setPink=''">Home</a></li>
+            <li><a href="#/intro" onClick=setColor() ng-click="setOrange='1'; setGreen=''; setPink=''">Introduction</a></li>
+            <li><a href="#/cv" onClick=setColor() ng-click="setOrange=''; setGreen='1'; setPink=''">CV</a></li>
+            <li><a href="#/portfolio" onClick=setColor() ng-click="setOrange=''; setGreen=''; setPink='1'">Portfolio</a></li>
         </ul>
     </nav>      
 
@@ -49,7 +49,7 @@
     </div>
 
     <div id="perm-scroll-container">
-        <a id="perm-top-scroll" ng-class="{'orange-header': setOrange, 'green-header': setGreen, 'pink-header': setPink}" href="#header-text" du-smooth-scroll du-scrollspy>UP</a>
+        <a id="perm-top-scroll" ng-class="{'orange-header': setOrange, 'green-header': setGreen, 'pink-header': setPink}" href="#header-text" du-smooth-scroll>UP</a>
     </div>
 
     <!--
