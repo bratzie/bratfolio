@@ -14,37 +14,13 @@
     </ul>
 </div>
 <div class="container">
-    <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
-        <span class="flaticon-news"></span>
-        <h2 id="work">WORK</h2>
-    </div>
-    <ul class="cv-list">
-        <li ng-repeat="el in cv.work">
-            <div class="cv-part" onClick="expandInfo(this)">
-                <img src="http://placekitten.com/g/300/300" />
-                <div class="main-info">
-                    <h3>{{el.name}}</h3>
-                    <h4>{{el.startTime}} - {{el.endTime}}</h4>
-                    <p class="cv-tags"><span ng-repeat="tag in el.tags">{{tag}}<span ng-show=" ! $last ">, </span><span ng-show="$last ">.</span></span>
-                    </p>
-                </div>
-                <div class="extra-info">
-                    <p>{{el.description}}</p>
-                    <h3>Achievements</h3>
-                    <ul class="achievements">
-                        <li ng-repeat="achievement in el.achievements">{{achievement}}</li>
-                    </ul>
-                </div>
-            </div>
-        </li>
-    </ul>
-    <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
-        <span class="flaticon-study"></span>
-        <h2 id="education">EDUCATION</h2>
-    </div>
-    <div class="cv-list-wrapper">
+    <div id="work" class="inline">
+        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+            <span class="flaticon-news"></span>
+            <h2>WORK</h2>
+        </div>
         <ul class="cv-list">
-            <li ng-repeat="el in cv.education">
+            <li ng-repeat="el in cv.work">
                 <div class="cv-part" onClick="expandInfo(this)">
                     <img src="http://placekitten.com/g/300/300" />
                     <div class="main-info">
@@ -64,46 +40,79 @@
             </li>
         </ul>
     </div>
-    <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
-        <span class="flaticon-lab"></span>
-        <h2 id="skills">SKILLS</h2>
+    <div id="education" class="inline">
+        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+            <span class="flaticon-study"></span>
+            <h2>EDUCATION</h2>
+        </div>
+        <div class="cv-list-wrapper">
+            <ul class="cv-list">
+                <li ng-repeat="el in cv.education">
+                    <div class="cv-part" onClick="expandInfo(this)">
+                        <img src="http://placekitten.com/g/300/300" />
+                        <div class="main-info">
+                            <h3>{{el.name}}</h3>
+                            <h4>{{el.startTime}} - {{el.endTime}}</h4>
+                            <p class="cv-tags"><span ng-repeat="tag in el.tags">{{tag}}<span ng-show=" ! $last ">, </span><span ng-show="$last ">.</span></span>
+                            </p>
+                        </div>
+                        <div class="extra-info">
+                            <p>{{el.description}}</p>
+                            <h3>Achievements</h3>
+                            <ul class="achievements">
+                                <li ng-repeat="achievement in el.achievements">{{achievement}}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="cv-list-wrapper">
-        <ul class="cv-focus">
-            <li ng-repeat="(title, score) in cv.core" class="columns list core-skill">
-                <hr />
-                <h2>{{title}}</h2>
-                <h3>{{score}}/5</h3>
-                <hr />
-            </li>
-        </ul>
-        <ul>
-            <li ng-repeat="el in cv.skills" class="columns list sub-skill">
-                <h2>{{el.title}}</h2>
-                <div ng-repeat="tag in el.tags">
-                        <p>{{tag}}</p>
-                </div>
-            </li>
-        </ul>
+    <div id="skills" class="inline">
+        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+            <span class="flaticon-lab"></span>
+            <h2>SKILLS</h2>
+        </div>
+        <div class="cv-list-wrapper">
+            <ul class="cv-focus">
+                <li ng-repeat="(title, score) in cv.core" class="columns list core-skill">
+                    <hr />
+                    <h2>{{title}}</h2>
+                    <h3>{{score}}/5</h3>
+                    <hr />
+                </li>
+            </ul>
+            <ul>
+                <li ng-repeat="el in cv.skills" class="columns list sub-skill">
+                    <h2>{{el.title}}</h2>
+                    <div ng-repeat="tag in el.tags">
+                            <p>{{tag}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
-        <span class="flaticon-display14"></span>
-        <h2 id="software">SOFTWARE</h2>
+    <div id="software" class="inline">
+        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+            <span class="flaticon-display14"></span>
+            <h2>SOFTWARE</h2>
+        </div>
+        <div class="cv-list-wrapper">
+            <ul class="cv-focus">
+                <li ng-repeat="(title, score) in cv.software" class="columns list core-skill">
+                    <hr >
+                    <h2>{{title}}</h2>
+                    <h4>{{score}}</h4>
+                    <hr >
+                </li>
+                <p class="cv-tags margin-top">Needless to say, I know my way around most software. If it's new, I love exploring!</p>
+            </ul>
+        </div>
     </div>
-    <div class="cv-list-wrapper">
-        <ul class="cv-focus">
-            <li ng-repeat="(title, score) in cv.software" class="columns list core-skill">
-                <hr >
-                <h2>{{title}}</h2>
-                <h4>{{score}}</h4>
-                <hr >
-            </li>
-            <p class="cv-tags margin-top">Needless to say, I know my way around most software. If it's new, I love exploring!</p>
-        </ul>
-    </div>
+    <div id="languages" class="inline">
     <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
         <span class="flaticon-big59"></span>
-        <h2 id="languages">LANGUAGES</h2>
+        <h2>LANGUAGES</h2>
     </div>
     <div class="cv-list-wrapper">
         <ul class="cv-focus">
@@ -115,5 +124,6 @@
             </li>
             <p class="cv-tags margin-top">Might know Spanish if you ask nicely... and I'm fluent in 1337 5P34K.</p>
         </ul>
+    </div>
     </div>
 </div>

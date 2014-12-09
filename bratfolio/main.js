@@ -7,7 +7,6 @@ angular.module('bratfolio', [
   'duScroll'
   ])
 
-
 .value('duScrollOffset', 170)
 
 .config(['$routeProvider',
@@ -44,7 +43,7 @@ angular.module('bratfolio', [
 
 .controller('IntroCtrl', ['$scope',
     function ($scope) {
-        $scope.setOrange = '1';
+        $scope.setOrange = true;
         setOrange();
 }])
 
@@ -54,7 +53,7 @@ angular.module('bratfolio', [
             $scope.cv = data;
         });
         
-        $scope.setGreen = '1';
+        $scope.setGreen = true;
         setGreen();
 }])
 
@@ -68,7 +67,7 @@ angular.module('bratfolio', [
             $scope.bacon = data;
         });
         
-        $scope.setPink = '1';
+        $scope.setPink = true;
         setPink();
 }])
 
@@ -81,12 +80,20 @@ angular.module('bratfolio', [
 
         $scope.projectId = $routeParams.projectId;
         
-        $scope.setPink = '1';
+        $scope.setPink = true;
         setPink();
 }]);
 
 function expandInfo(el) {
     $(el).find('.extra-info').slideToggle("slow");
+}
+
+function expandProjectInfo(el) {
+    $(el).find('.extra-info').slideToggle("slow");
+    $(el).find('.sneaky').slideToggle("slow", function() {
+        $(el).find('.sneaky').html("I forgot what this thing said, show me again.");
+    });
+    
 }
 
 /* Temporary 'hack' to fix colors, I know it's horrible */
@@ -149,6 +156,21 @@ function stickyRelocate() {
 }
 
 $(document).ready(function () {
+    $('.fancybox').fancybox({
+        helpers: {
+            overlay: {
+                css: {
+                    'background': 'rgba(255, 255, 255, 0.60)'
+                }
+            }
+        },
+        padding: 5,
+        closeBtn: false,
+        closeClick: true,
+        openEffect: "elastic",
+        closeEffect: "elastic"
+    });
+    
     $(function () {
         $(window).scroll(stickyRelocate);
     });
