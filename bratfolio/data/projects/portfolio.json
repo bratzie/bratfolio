@@ -2,10 +2,12 @@
     "id": "portfolio", 
     "more": "Ooh, this sounds interesting. Tell me more!",
     "images": [
-        "img/projects/testProject.jpeg", 
-        "img/projects/testProject1.jpeg", 
-        "img/projects/testProject2.jpeg"
-    ], 
+        "img/projects/portfolio-1.png", 
+        "img/projects/portfolio-2.png", 
+        "img/projects/portfolio-3.png", 
+        "img/projects/portfolio-4.jpeg"
+    ],
+    "header": "img/projects/portfolio-header.jpg",
     "title": "This Awesome Portfolio",
     "details": [
         {
@@ -43,5 +45,6 @@
         "author": "Bratzie", 
         "time": "7 days"
     }, 
-    "description": "Made my portfolio, and at the same time I rocked some cool new frameworks and played around to get slightly sharper at what I'm doing. Oh, also, awesome for showing off! Half-way through the project I switched from Sublime Text 3 to Brackets as my main text editor, and so far I love it. This was the final task for the course DH2627, Interaction Design at KTH. However, since I needed some sort of refuge in the stormy sea that is the internet, I probably made more than I needed to."
+    "description": "Made my portfolio, and at the same time I rocked some cool new frameworks and played around to get slightly sharper at what I'm doing. Oh, also, awesome for showing off! Half-way through the project I switched from Sublime Text 3 to Brackets as my main text editor, and so far I love it. This was the final task for the course DH2627, Interaction Design at KTH. However, since I needed some sort of refuge in the stormy sea that is the internet, I probably made more than I needed to.",
+    "thoughts": "This is where I write down what I feel about the project."
 }

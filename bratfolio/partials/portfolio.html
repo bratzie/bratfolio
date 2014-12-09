@@ -17,12 +17,16 @@
 					<a href="#/projects/{{project.id}}"><img class="thumb-img" ng-src="{{project.thumbUrl}}"></a>
 					<div class="thumb-cover">
 						<div class="thumb-cover-left">
-							<a href="#/projects/{{project.id}}">{{project.title}}</a>
+							<a class="project-title" href="#/projects/{{project.id}}">{{project.title}}</a>
 							<p>{{project.snippet}}</p>
+							<p class="project-tags"><span ng-repeat="tag in project.tags">{{tag}}<span ng-show=" ! $last ">, </span><span ng-show="$last ">.</span></span>
+                            </p>
 						</div>
-						<div class="thumb-cover-right">
-							<a href="#/projects/{{project.id}}"><img src="img/arrow.png"></a>
-						</div>
+				        <a href="#/projects/{{project.id}}">
+                            <div class="thumb-cover-right">
+                                <img src="img/arrow.png">
+                            </div>
+						</a>
 					</div>
 		    	</div>
 		  	</li>

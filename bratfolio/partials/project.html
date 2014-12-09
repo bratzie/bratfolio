@@ -1,4 +1,7 @@
 
+<div class="full-width header-image">
+    <img ng-src="{{project.header}}">
+</div>
 <div class="outer-container">
     <a href="#/portfolio">
         <div id="back-to-projects">
@@ -16,8 +19,8 @@
                 <p>{{project.description}}</p>
             </div>
             <div class="project-facts">
-                <ul ng-repeat="(title, info) in project.facts">
-                   <li><p><b style="text-transform: capitalize">{{title}}:</b> {{info}}</p></li>
+                <ul>
+                   <li ng-repeat="(title, info) in project.facts"><p><b style="text-transform: capitalize">{{title}}:</b> {{info}}</p></li>
                 </ul>
             </div>
         </div>
@@ -39,13 +42,29 @@
         </div>
 
         <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
-            <span class="flaticon-photo3"></span>
+            <span class="flaticon-camera7"></span>
             <h2>Media</h2>
         </div>
         <div class="image-container">
             <ul class="project-preview">
                 <li ng-repeat="img in project.images"><a class="fancybox" rel="gallery" ng-href="{{img}}"><div class="inner-picture-wrapper"><img class="project-preview-image" ng-src="{{img}}" alt=""></div></a></li>
             </ul>
+        </div>
+        
+        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+            <span class="flaticon-small61"></span>
+            <h2>Thoughts</h2>
+        </div>
+        <div class="less-squeezed">
+            <p>{{project.thoughts}}</p>
+        </div>
+        
+        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+            <span class="flaticon-world5"></span>
+            <h2>Links</h2>
+        </div>
+        <div class="less-squeezed">
+            <p>Insert links here</p>
         </div>
     </div>
 </div>

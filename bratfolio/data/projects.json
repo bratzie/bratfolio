@@ -1,19 +1,21 @@
 [
     {
         "id": "portfolio", 
-        "title": "My new portfolio", 
-        "thumbUrl": "img/projects/testProject.jpeg",
+        "title": "My new portfolio",
+        "date": 20141010,
+        "thumbUrl": "img/projects/portfolio-thumb.jpg",
         "tags": [
             "Personal",
             "KTH",
             "Web",
             "AngularJS"
         ],
-        "snippet": "Crazy project that I've done..."
+        "snippet": "Crazy project that I've done... Oh wait, it's this portfolio!"
     }, 
     {
-        "id": "dh2320", 
+        "id": "dh2320",
         "title": "DH2320 Labwork",
+        "date": 20141110,
         "thumbUrl": "http://placekitten.com/g/300/300",
         "tags": [
             "KTH",
@@ -26,6 +28,7 @@
     {
         "id": "dh2320", 
         "title": "DH2320 Labwork",
+        "date": 20151010,
         "thumbUrl": "http://placekitten.com/g/500/500",
         "tags": [
             "KTH",
@@ -38,6 +41,46 @@
     {
         "id": "dh2320", 
         "title": "DH2320 Labwork",
+        "date": 20121010,
+        "thumbUrl": "http://placekitten.com/g/400/400",
+        "tags": [
+            "KTH",
+            "Web",
+            "WebGL",
+            "Graphics"
+        ],
+        "snippet": "Labs in the DH2320, Introduction to Visualization and Computer Graphics, course at KTH."
+    }, 
+    {
+        "id": "dh2320", 
+        "title": "DH2320 Labwork",
+        "date": 20141010,
+        "thumbUrl": "http://placekitten.com/g/400/400",
+        "tags": [
+            "KTH",
+            "Web",
+            "WebGL",
+            "Graphics"
+        ],
+        "snippet": "Labs in the DH2320, Introduction to Visualization and Computer Graphics, course at KTH."
+    }, 
+    {
+        "id": "dh2320", 
+        "title": "DH2320 Labwork",
+        "date": 20141010,
+        "thumbUrl": "http://placekitten.com/g/400/400",
+        "tags": [
+            "KTH",
+            "Web",
+            "WebGL",
+            "Graphics"
+        ],
+        "snippet": "Labs in the DH2320, Introduction to Visualization and Computer Graphics, course at KTH."
+    }, 
+    {
+        "id": "dh2320", 
+        "title": "DH2320 Labwork",
+        "date": 20141010,
         "thumbUrl": "http://placekitten.com/g/400/400",
         "tags": [
             "KTH",
