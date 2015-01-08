@@ -7,7 +7,7 @@ angular.module('bratfolio', [
   'duScroll'
   ])
 
-.value('duScrollOffset', 170)
+.value('duScrollOffset', 120)
 
 .config(['$routeProvider',
     function ($routeProvider) {

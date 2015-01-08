@@ -2,7 +2,7 @@
     "education": [
         {
             "name": "KTH Royal Institute of Technology",
-            "thumbUrl": "img/projects/testProject.jpeg",
+            "thumbUrl": "img/cv/kth.jpg",
             "tags": [
                 "Computer Science",
                 "Human Computer Interaction"
@@ -27,7 +27,7 @@
         },
         {
             "name": "Tyresö Gymnasium",
-            "thumbUrl": "img/projects/testProject.jpeg",
+            "thumbUrl": "img/cv/tg.jpg",
             "tags": [
                 "High School",
                 "Technics",
@@ -45,7 +45,7 @@
         },
         {
             "name": "EBS Bartender School",
-            "thumbUrl": "img/projects/testProject.jpeg",
+            "thumbUrl": "img/cv/ebs.jpg",
             "tags": [
                 "Bartending",
                 "Flairtending",
@@ -56,14 +56,16 @@
             "description": "Intense one-month course during the summer of 2009. Head of education was Johannes Kinch. Finished with highest possible grades and had an overall awesome and evolving experience. Towards the end I almost understood danish!",
             "snippet": "Went on a one-month summer course.",
             "achievements": [
-                ""
+                "Aced it all",
+                "Never late",
+                "Fell off a bike"
             ]
         }
     ],
     "work": [
         {
             "name": "Spotify",
-            "thumbUrl": "img/projects/testProject.jpeg",
+            "thumbUrl": "img/cv/spotify.jpg",
             "tags": [
                 "Employer Branding",
                 "Marketing",
@@ -83,7 +85,7 @@
         },
         {
             "name": "IT, Swedish Trade Federation",
-            "thumbUrl": "img/projects/testProject.jpeg",
+            "thumbUrl": "img/cv/svenskhandel.jpg",
             "tags": [
                 "IT-management",
                 "Communication",
@@ -100,12 +102,13 @@
             "achievements": [
                 "Repair an iPhone",
                 "Patching network cables",
-                "Coding a ticket system in Access..."
+                "Coding in Access...",
+                "Understanding users"
             ]
         },
         {
             "name": "Klubbmästare DKM",
-            "thumbUrl": "img/projects/testProject.jpeg",
+            "thumbUrl": "img/cv/dkm.jpg",
             "tags": [
                 "Leadership",
                 "Structure",
@@ -117,14 +120,17 @@
             "startTime": "December 2009",
             "endTime": "July 2013",
             "description": "Responsible for the overall organization and leadership within DKM (Datas Klubbmästeri). DKM is a group of students at the computer science chapter of KTH that arrange weekly pubs as well as other major events for the students of the chapter. Before taking charge as klubbmästare, I was responsible for all graphics produced by DKM.",
-            "snippet": "",
+            "snippet": "Made friends for life and organized a lot of awesome events.",
             "achievements": [
-                ""
+                "First Tentapub",
+                "Plums",
+                "Late Night Cleaning",
+                "BFFs"
             ]
         },
         {
             "name": "Art Director, Univeristy Star League",
-            "thumbUrl": "img/projects/testProject.jpeg",
+            "thumbUrl": "img/cv/unisl.jpg",
             "tags": [
                 "Graphics",
                 "Large Group",
@@ -135,14 +141,15 @@
             "startTime": "September 2012",
             "endTime": "March 2014",
             "description": "In charge of every piece of graphics seen, as well as the look and feel of the production, in the first season of University Star League (a Starcraft 2 tournament for university students in Sweden). Among what was produced was a webpage, overlays for the livestream, advertisement (mousepads, posters, awards, cheques). I also acted as a graphical consultant for the entire production.",
-            "snippet": "",
+            "snippet": "From zero to amazing. I was part of the start-up crew.",
             "achievements": [
-                ""
+                "Design a cheque",
+                "Meet pro gamers"
             ]
         },
         {
             "name": "Teknikmagasinet",
-            "thumbUrl": "img/projects/testProject.jpeg",
+            "thumbUrl": "img/cv/teknikmagasinet.jpg",
             "tags": [
                 "Routines",
                 "Service-Mindedness",
@@ -153,14 +160,16 @@
             "startTime": "November 2008",
             "endTime": "April 2009",
             "description": "In-store salesman selling cool gadgets, gifts and other technical stuff over the counter.",
-            "snippet": "",
+            "snippet": "Meeting customers rocked. I kinda miss it.",
             "achievements": [
-                ""
+                "Selling batteries",
+                "Memorizing numbers",
+                "Counting registers"
             ]
         },
         {
             "name": "Graphical Artist, Bratt Trading",
-            "thumbUrl": "img/projects/testProject.jpeg",
+            "thumbUrl": "img/cv/bratt.jpg",
             "tags": [
                 "Graphics",
                 "Creativity"
@@ -168,9 +177,9 @@
             "startTime": "September 2008",
             "endTime": "November 2008",
             "description": "Designed and created their product catalogue for 2009.",
-            "snippet": "",
+            "snippet": "My first real job!",
             "achievements": [
-                ""
+                "First real job"
             ]
         }
     ],
@@ -192,7 +201,10 @@
                 "Multimodal Design",
                 "Graphics",
                 "Art Directing",
-                "Visual Identity"
+                "2D and 3D Art",
+                "Visual Identity",
+                "Prototyping",
+                "Storytelling"
             ]
         },
         {
@@ -224,6 +236,9 @@
         {
             "title": "Miscellaneous",
             "tags": [
+                "Video Editing",
+                "Storyboarding",
+                "2D ",
                 "Bartending",
                 "Drumming",
                 "Event Management",

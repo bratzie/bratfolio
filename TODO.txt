@@ -8,9 +8,9 @@ Dual-columns below media? (for thoughts, process and links) -check
 
 Core-skills look like headlines to sub-skills. -check
 
-Move core-skills to top.
+Move core-skills to top. -check
 
-Keep sub-skills below work.
+Keep sub-skills below work. -check
 
 Core-skills
 Work

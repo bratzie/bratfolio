@@ -17,11 +17,11 @@
 </div>
 <div class="container">
    <div id="core" class="inline">
-        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+        <div class="header-line fixed-margin-top" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
             <span class="flaticon-fire"></span>
-            <h2>CORE</h2>
+            <h2 class="default-cursor">CORE</h2>
         </div>
-        <div class="cv-list-wrapper">
+        <div class="cv-list-wrapper default-cursor">
             <ul class="cv-focus">
                 <li ng-repeat="(title, score) in cv.core" class="columns list core-skill">
                     <hr />
@@ -35,19 +35,22 @@
     <div id="work" class="inline">
         <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
             <span class="flaticon-news"></span>
-            <h2>WORK</h2>
+            <h2 class="default-cursor">WORK</h2>
         </div>
         <ul class="cv-list">
             <li ng-repeat="el in cv.work">
                 <div class="cv-part" onClick="expandInfo(this)">
-                    <img src="http://placekitten.com/g/300/300" />
+                    <img ng-src="{{el.thumbUrl}}" />
                     <div class="main-info">
                         <h3>{{el.name}}</h3>
                         <h4>{{el.startTime}} - {{el.endTime}}</h4>
-                        <p><span class="cv-tags" ng-repeat="tag in el.tags">{{tag}}<span class="cv-tags" ng-show=" ! $last ">, </span><span class="cv-tags" ng-show="$last ">.</span></span>
+                        <p class="cv-tag-paragraph"><span class="cv-tags" ng-repeat="tag in el.tags">{{tag}}<span class="cv-tags" ng-show=" ! $last ">, </span><span class="cv-tags" ng-show="$last ">.</span></span>
                         </p>
                     </div>
                     <div class="extra-info">
+                        <div class="extra-padding centered">
+                            <span class="snippet">"{{el.snippet}}"</span>
+                        </div>
                         <p>{{el.description}}</p>
                         <h3>Achievements</h3>
                         <ul>
@@ -61,12 +64,12 @@
     <div id="skills" class="inline">
         <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
             <span class="flaticon-lab"></span>
-            <h2>SKILLS</h2>
+            <h2 class="default-cursor">SKILLS</h2>
         </div>
         <div class="cv-list-wrapper">
             <ul>
                 <li ng-repeat="el in cv.skills" class="columns four-list sub-skill">
-                    <h2>{{el.title}}</h2>
+                    <h2 class="extra-margin sneaky-bot-border default-cursor">{{el.title}}</h2>
                     <div ng-repeat="tag in el.tags">
                             <p>{{tag}}</p>
                     </div>
@@ -77,20 +80,23 @@
     <div id="education" class="inline">
         <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
             <span class="flaticon-study"></span>
-            <h2>EDUCATION</h2>
+            <h2 class="default-cursor">EDUCATION</h2>
         </div>
         <div class="cv-list-wrapper">
             <ul class="cv-list">
                 <li ng-repeat="el in cv.education">
                     <div class="cv-part" onClick="expandInfo(this)">
-                        <img src="http://placekitten.com/g/300/300" />
+                        <img ng-src="{{el.thumbUrl}}" />
                         <div class="main-info">
                             <h3>{{el.name}}</h3>
                             <h4>{{el.startTime}} - {{el.endTime}}</h4>
-                            <p><span class="cv-tags" ng-repeat="tag in el.tags">{{tag}}<span class="cv-tags" ng-show=" ! $last ">, </span><span class="cv-tags" ng-show="$last ">.</span></span>
+                            <p class="cv-tag-paragraph"><span class="cv-tags" ng-repeat="tag in el.tags">{{tag}}<span class="cv-tags" ng-show=" ! $last ">, </span><span class="cv-tags" ng-show="$last ">.</span></span>
                             </p>
                         </div>
                         <div class="extra-info">
+                            <div class="extra-padding centered">
+                                <span class="snippet">"{{el.snippet}}"</span>
+                            </div>
                             <p>{{el.description}}</p>
                             <h3>Achievements</h3>
                             <ul>
@@ -106,9 +112,9 @@
     <div id="software" class="inline">
         <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
             <span class="flaticon-display14"></span>
-            <h2>SOFTWARE</h2>
+            <h2 class="default-cursor">SOFTWARE</h2>
         </div>
-        <div class="cv-list-wrapper">
+        <div class="cv-list-wrapper default-cursor">
             <ul class="cv-focus">
                 <li ng-repeat="(title, score) in cv.software" class="columns list core-skill">
                     <hr >
@@ -116,16 +122,16 @@
                     <h4>{{score}}</h4>
                     <hr >
                 </li>
-                <p class="cv-tags margin-top">Needless to say, I know my way around most software. If it's new, I love exploring!</p>
+                <p class="cv-tags margin-top">Don't worry, I know my way around most software. Oh, and if I don't, I love figuring stuff out!</p>
             </ul>
         </div>
     </div>
     <div id="languages" class="inline">
     <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
         <span class="flaticon-big59"></span>
-        <h2>HUMAN LANGUAGES</h2>
+        <h2 class="default-cursor">HUMAN LANGUAGES</h2>
     </div>
-    <div class="cv-list-wrapper">
+    <div class="cv-list-wrapper default-cursor">
         <ul class="cv-focus">
             <li ng-repeat="(title, score) in cv.languages" class="columns list core-skill">
                 <hr >

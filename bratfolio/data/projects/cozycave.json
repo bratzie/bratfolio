@@ -14,9 +14,9 @@
         {
             "title": "Skills",
             "tags": [
-                "Layouting",
+                "Concepting",
                 "Design",
-                "Front end development",
+                "Physical Prototyping",
                 "User Evaluation",
                 "Iterative Design"
             ]
@@ -24,35 +24,26 @@
         {
             "title": "Software",
             "tags": [
-                "Adobe Photoshop",
-                "Sublime Text 3",
-                "Brackets"
+                "Adobe Photoshop"
             ]
         },
         {
             "title": "Technology",
             "tags": [
-                "Angular",
-                "HTML",
-                "CSS",
-                "Javascript",
-                "jQuery",
-                "node",
-                "bower",
-                "git"
+                "Physical Design"
             ]
         }
     ],
     "facts": {
         "date": "October 2014", 
-        "stakeholder": "Bratzie", 
-        "time": "7 days",
-        "role": "Everything",
-        "team": "Solo"
+        "stakeholder": "KTH", 
+        "time": "4 weeks",
+        "role": "Concept, Design, User Testing",
+        "team": "2"
     }, 
-    "description": "Made my portfolio, and at the same time I rocked some cool new frameworks and played around to get slightly sharper at what I'm doing. Oh, also, awesome for showing off! Half-way through the project I switched from Sublime Text 3 to Brackets as my main text editor, and so far I love it. This was the final task for the course DH2627, Interaction Design at KTH. However, since I needed some sort of refuge in the stormy sea that is the internet, I probably made more than I needed to.",
-    "reflection": "This is where I write down what I feel about the project.",
-    "process": "This is where the process would be if this project had one.",
-    "links": "Repos and external documentation goes here.",
-    "information": "Here's where I describe my role in the project, the context and who was a part of it."
+    "description": "We were tasked with designing responsibly. Since the over-arching theme was playgrounds we decided to go with visual impairment and how to encourage play between visually impaired and sighted children. We ended up with Pitch Black, an artifact designed to playfully put sighted children in the shoes of visually impaired children while at the same time encouraging them to play together while leveling the playing field.",
+    "reflection": "The user testing part of this project was by far the most fun and at the same time perplexing part. We decorated a room in the same way we designed our artifact. We invited friends to play around and got amazing feedback. It was quite disheartening to find out, while reading related work, that children, sighted and visually impaired, rarely play together as it is. If we could help make that statistic slightly better, it would be a win!",
+    "process": "Over the 4 weeks we initially sketched a few concepts, tried to make a physical prototype, which, after a few rounds of feedback, sent up back to the drawing board. Once we had our final idea thought out and conducted our user test, we knew we were on the right path.",
+    "links": "Link to final report coming soon.",
+    "information": "I was part of a team of 2 together with Sarah Bernelind. Since the scope of the project was fairly short we made most of the things together."
 }

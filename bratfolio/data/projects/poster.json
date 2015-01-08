@@ -18,30 +18,18 @@
             "tags": [
                 "Layouting",
                 "Design",
-                "Front end development",
-                "User Evaluation",
-                "Iterative Design"
+                "Sketching"
             ]
         },
         {
             "title": "Software",
             "tags": [
-                "Adobe Photoshop",
-                "Sublime Text 3",
-                "Brackets"
+                "Adobe Photoshop"
             ]
         },
         {
             "title": "Technology",
             "tags": [
-                "Angular",
-                "HTML",
-                "CSS",
-                "Javascript",
-                "jQuery",
-                "node",
-                "bower",
-                "git"
             ]
         }
     ],
@@ -50,11 +38,11 @@
         "stakeholder": "KTH", 
         "time": "4 weeks",
         "role": "Explorer, Concept, Designer",
-        "team": "Jesper Bratt, Ida Vainionpää"
+        "team": "2"
     }, 
-    "description": "Made my portfolio, and at the same time I rocked some cool new frameworks and played around to get slightly sharper at what I'm doing. Oh, also, awesome for showing off! Half-way through the project I switched from Sublime Text 3 to Brackets as my main text editor, and so far I love it. This was the final task for the course DH2627, Interaction Design at KTH. However, since I needed some sort of refuge in the stormy sea that is the internet, I probably made more than I needed to.",
-    "reflection": "This is where I write down what I feel about the project.",
-    "process": "This is where the process would be if this project had one.",
-    "links": "Repos and external documentation goes here.",
-    "information": "Here's where I describe my role in the project, the context and who was a part of it."
+    "description": "First out in our interaction design course was explorative design. We were supposed to conceptualize ways to make playgrounds interactive. At the end of the project we presented 3 radically different ideas ranging from a modified seesaw to an interactive light trail. Take a look at the posters below to get an idea of the different concepts.",
+    "reflection": " This was the first time I used PLEX cards and it turned out to bring out some funky ideas. It would be cool to further develop and try one of the games in practice.",
+    "process": "We used PLEX cards to help in our initial ideation phase, we later refined the ideas and fleshed out posters for presentation.",
+    "links": "No links for this project...",
+    "information": "This was the first part in the Interaction Design 2 couse at KTH. The area was explorative design and I worked together with Ida Vainionpää to design 3 different playground ideas and present them as posters. I was in charge of digitalizing the posters, we designed them together by hand, and I took them through Photoshop."
 }
