@@ -67,6 +67,8 @@ angular.module('bratfolio', [
             $scope.bacon = data;
         });
         
+        $scope.hover = false;
+        
         $scope.setPink = true;
         setPink();
 }])
