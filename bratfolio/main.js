@@ -117,6 +117,17 @@ function setOrange() {
     $('header').addClass('orange-header');
     $('.menu').addClass('orange');
     $('#perm-top-scroll').addClass('orange-header');
+    
+    /*
+    particlesJS('particles-js', {
+        particles: {
+            color: '#000',
+            line_linked: {
+                color: '#000'
+            }
+        }
+    });
+    */        
 }
 
 function setGreen() {
@@ -159,6 +170,18 @@ function stickyRelocate() {
     }
 }
 
+function showFooter() {
+    if($(window).scrollTop() + $(window).height() >= $(document).height() - 50){
+        $('footer').css('padding-top', '15px');
+        $('footer').css('padding-bottom', '35px');
+        $('footer').css('opacity', '1');
+    } else {
+        $('footer').css('padding-top', '0px');
+        $('footer').css('padding-bottom', '0px');
+        $('footer').css('opacity', '0');
+    }
+}
+
 $(document).ready(function () {
     $('.fancybox').fancybox({
         helpers: {
@@ -177,6 +200,7 @@ $(document).ready(function () {
     
     $(function () {
         $(window).scroll(stickyRelocate);
+        $(window).scroll(showFooter);
     });
 
     $(function () {
@@ -185,4 +209,55 @@ $(document).ready(function () {
             $('#sticky-cv').css("width", "100%");
         });
     });
+});
+
+/* 
+    Particles.js by Vincent Garreau
+    https://github.com/VincentGarreau/particles.js/
+*/
+particlesJS('particles-js', {
+  particles: {
+    color: '#fff',
+    shape: 'circle', // "circle", "edge" or "triangle"
+    opacity: 0.7,
+    size: 4,
+    size_random: true,
+    nb: 150,
+    line_linked: {
+      enable_auto: true,
+      distance: 100,
+      color: '#fff',
+      opacity: 0.7,
+      width: 1,
+      condensed_mode: {
+        enable: false,
+        rotateX: 600,
+        rotateY: 600
+      }
+    },
+    anim: {
+      enable: true,
+      speed: 2
+    }
+  },
+  interactivity: {
+    enable: true,
+    mouse: {
+      distance: 200
+    },
+    detect_on: 'canvas', // "canvas" or "window"
+    mode: 'grab',
+    line_linked: {
+      opacity: 0.5
+    },
+    events: {
+      onclick: {
+        enable: true,
+        mode: 'push', // "push" or "remove"
+        nb: 4
+      }
+    }
+  },
+  /* Retina Display Support */
+  retina_detect: true
 });

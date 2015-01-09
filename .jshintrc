@@ -10,7 +10,8 @@
         "module": false,
         "inject": false,
         "$": false,
-        "jquery": false
+        "jquery": false,
+        "particlesJS": false
     },
     "browser": true,
     "node": true
