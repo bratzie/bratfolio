@@ -432,18 +432,15 @@ nav {
 .menu > li {
     display: inline-block;
     background-color: #425FC8;
-    border-radius: 10px;
-    border: 3px solid rgba(240, 240, 240, 0.8);
+    border: 2px solid rgba(240, 240, 240, 0.5);
     box-shadow: 
-        inset 0 0px 10px 2px rgba(0, 0, 0, 0.1),
+        inset 0px -5px 0px 0px rgba(0, 0, 0, 0.2),
         0 0px 5px 2px rgba(255, 255, 255, 0.2);
-    transition: background-color 1s, border-color 0.3s, transform 0.5s;
+    transition: background-color 1s, border-color 0.3s, transform 0.5s, box-shadow 0.3s;
 }
 
 .menu > li:hover {
-    
     border-color: #425FC8;
-    transform: scale(1.03);
     box-shadow: 
         inset 0 0px 10px 2px rgba(0, 0, 0, 0.1),
         0 0px 5px 2px rgba(255, 255, 255, 0);
@@ -462,6 +459,13 @@ nav {
     text-decoration: none !important;
     z-index: 2;
     white-space: nowrap;
+    transition: 0.3s;
+    top: 0px;
+}
+
+.menu > li:hover a {
+    top: 2px;
+    opacity: 0.7;
 }
 
 .menu a.home-icon {
@@ -995,7 +999,7 @@ nav {
 
 .view-container {
     height: 100%;
-    transition: 1s;
+    transition: 2s;
 }
 
 .view-frame {
@@ -1005,15 +1009,17 @@ nav {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    transition: 1s;
+    transition: 2s;
 }
 
 .view-frame.ng-enter,
-.view-frame.ng-leave {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
+.view-frame.ng-leave,
+.view-frame.ng-enter-active,
+.view-frame.ng-leave-active {
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
 }
 
 .view-frame.ng-enter {

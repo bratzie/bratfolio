@@ -230,7 +230,7 @@ particlesJS('particles-js', {
       opacity: 0.7,
       width: 1,
       condensed_mode: {
-        enable: false,
+        enable: true,
         rotateX: 600,
         rotateY: 600
       }
