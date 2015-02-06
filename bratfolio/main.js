@@ -100,17 +100,23 @@ function expandProjectInfo(el) {
 
 /* Temporary 'hack' to fix colors, I know it's horrible */
 
+var initColorFix = false;
+
 // add paramter to set color to the passed color
 function setColor() {
-    $('header').removeClass('orange-header');
-    $('.menu').removeClass('orange');
-    $('#perm-top-scroll').removeClass('orange-header');
-    $('header').removeClass('green-header');
-    $('.menu').removeClass('green');
-    $('#perm-top-scroll').removeClass('green-header');
-    $('header').removeClass('pink-header');
-    $('.menu').removeClass('pink');
-    $('#perm-top-scroll').removeClass('pink-header');
+    if(!initColorFix) {
+        $('header').removeClass('orange-header');
+        $('.menu').removeClass('orange');
+        $('#perm-top-scroll').removeClass('orange-header');
+        $('header').removeClass('green-header');
+        $('.menu').removeClass('green');
+        $('#perm-top-scroll').removeClass('green-header');
+        $('header').removeClass('pink-header');
+        $('.menu').removeClass('pink');
+        $('#perm-top-scroll').removeClass('pink-header');
+        
+        initColorFix = true;
+    }
 }
 
 function setOrange() {
