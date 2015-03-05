@@ -1,90 +1,9 @@
+/*jslint white: true */
+/*jslint node: true */
+/*global angular, $, particlesJS, pJS */
+
 'use strict';
 
-// Declare app level module which depends on views, and components
-angular.module('bratfolio', [
-  'ngRoute',
-  'ngAnimate',
-  'duScroll'
-  ])
-
-.value('duScrollOffset', 120)
-
-.config(['$routeProvider',
-    function ($routeProvider) {
-        $routeProvider
-            .when('/', {
-                templateUrl: 'partials/home.html',
-                controller: 'MainCtrl'
-            })
-            .when('/intro', {
-                templateUrl: 'partials/intro.html',
-                controller: 'IntroCtrl'
-            })
-            .when('/cv', {
-                templateUrl: 'partials/cv.html',
-                controller: 'CVCtrl'
-            })
-            .when('/portfolio', {
-                templateUrl: 'partials/portfolio.html',
-                controller: 'PortfolioCtrl'
-            })
-            .when('/projects/:projectId', {
-                templateUrl: 'partials/project.html',
-                controller: 'ProjectCtrl'
-            })
-            .otherwise({
-                redirectTo: '/'
-            });
-}])
-
-.controller('MainCtrl', ['$scope',
-    function ($scope) {
-}])
-
-.controller('IntroCtrl', ['$scope',
-    function ($scope) {
-        $scope.setOrange = true;
-        setOrange();
-}])
-
-.controller('CVCtrl', ['$scope', '$http',
-    function ($scope, $http) {
-        $http.get('data/cv.json').success(function (data) {
-            $scope.cv = data;
-        });
-        
-        $scope.setGreen = true;
-        setGreen();
-}])
-
-.controller('PortfolioCtrl', ['$scope', '$http',
-    function ($scope, $http) {
-        $http.get('data/projects.json').success(function (data) {
-            $scope.projects = data;
-        });
-
-        $http.get('http://baconipsum.com/api/?type=all-meat&paras=1').success(function (data) {
-            $scope.bacon = data;
-        });
-        
-        $scope.hover = false;
-        
-        $scope.setPink = true;
-        setPink();
-}])
-
-.controller('ProjectCtrl', ['$scope', '$routeParams', '$http',
-    function ($scope, $routeParams, $http) {
-        $http.get('data/projects/' + $routeParams.projectId + '.json').success(function (data) {
-            console.log(data);
-            $scope.project = data;
-        });
-
-        $scope.projectId = $routeParams.projectId;
-        
-        $scope.setPink = true;
-        setPink();
-}]);
 
 function expandInfo(el) {
     $(el).find('.extra-info').slideToggle("slow");
@@ -122,18 +41,7 @@ function setColor() {
 function setOrange() {
     $('header').addClass('orange-header');
     $('.menu').addClass('orange');
-    $('#perm-top-scroll').addClass('orange-header');
-    
-    /*
-    particlesJS('particles-js', {
-        particles: {
-            color: '#000',
-            line_linked: {
-                color: '#000'
-            }
-        }
-    });
-    */        
+    $('#perm-top-scroll').addClass('orange-header');       
 }
 
 function setGreen() {
@@ -151,8 +59,7 @@ function setPink() {
 
 // Making the menu stick
 function stickyRelocate() {
-    var window_top = $(window).scrollTop();
-    var div_top = $('#sticky-anchor').offset().top;
+    var window_top = $(window).scrollTop(), div_top = $('#sticky-anchor').offset().top;
     if (window_top > div_top) {
         $('#sticky').addClass('stick').width($(window).width());
         $('#sticky-cv').addClass('stick').width($(window).width());
@@ -188,7 +95,7 @@ function showFooter() {
     }
 }
 
-$(document).ready(function () {
+$(function () {
     $('.fancybox').fancybox({
         helpers: {
             overlay: {
@@ -203,67 +110,261 @@ $(document).ready(function () {
         openEffect: "elastic",
         closeEffect: "elastic"
     });
-    
-    $(function () {
-        $(window).scroll(stickyRelocate);
-        $(window).scroll(showFooter);
-    });
+});
 
-    $(function () {
-        $(window).resize(function () {
-            $('#sticky').css("width", "100%");
-            $('#sticky-cv').css("width", "100%");
+function onScroll() {
+    stickyRelocate();
+    showFooter();
+}
+
+function onResize() {
+    $('#sticky').css("width", "100%");
+    $('#sticky-cv').css("width", "100%");
+}
+
+window.addEventListener('scroll', function () { onScroll(); }, true);
+
+window.addEventListener('resize', function () { onResize(); }, true);
+
+/* =============================================================================================
+
+    ANGULAR
+
+============================================================================================= */
+
+// Declare app level module which depends on views, and components
+angular.module('bratfolio', [
+    'ngRoute',
+    'ngAnimate',
+    'duScroll'
+])
+
+.value('duScrollOffset', 120)
+
+.config(['$routeProvider',
+    function ($routeProvider) {
+        $routeProvider
+            .when('/', {
+                templateUrl: 'partials/home.html',
+                controller: 'MainCtrl'
+            })
+            .when('/intro', {
+                templateUrl: 'partials/intro.html',
+                controller: 'IntroCtrl'
+            })
+            .when('/cv', {
+                templateUrl: 'partials/cv.html',
+                controller: 'CVCtrl'
+            })
+            .when('/portfolio', {
+                templateUrl: 'partials/portfolio.html',
+                controller: 'PortfolioCtrl'
+            })
+            .when('/projects/:projectId', {
+                templateUrl: 'partials/project.html',
+                controller: 'ProjectCtrl'
+            })
+            .otherwise({
+                redirectTo: '/'
+            });
+    }])
+
+.controller('MainCtrl', ['$scope',
+    function ($scope) {
+        showFooter();
+}])
+
+.controller('IntroCtrl', ['$scope',
+    function ($scope) {
+        $scope.setOrange = true;
+        setOrange();
+        showFooter();
+}])
+
+.controller('CVCtrl', ['$scope', '$http',
+    function ($scope, $http) {
+        $http.get('data/cv.json').success(function (data) {
+            $scope.cv = data;
         });
+
+        $scope.setGreen = true;
+        setGreen();
+        showFooter();
+}])
+
+.controller('PortfolioCtrl', ['$scope', '$http',
+    function ($scope, $http) {
+        $http.get('data/projects.json').success(function (data) {
+            $scope.projects = data;
+        });
+
+        $http.get('http://baconipsum.com/api/?type=all-meat&paras=1').success(function (data) {
+            $scope.bacon = data;
+        });
+
+        $scope.hover = false;
+
+        $scope.setPink = true;
+        setPink();
+        showFooter();
+}])
+
+.controller('ProjectCtrl', ['$scope', '$routeParams', '$http',
+    function ($scope, $routeParams, $http) {
+        $http.get('data/projects/' + $routeParams.projectId + '.json').success(function (data) {
+            console.log(data);
+            $scope.project = data;
+        });
+
+        $scope.projectId = $routeParams.projectId;
+
+        $scope.setPink = true;
+        setPink();
+        showFooter();
+}]);
+
+/*
+  
+$(function () {
+    $(window).scroll(stickyRelocate);
+    $(window).scroll(showFooter);
+});
+
+$(function () {
+    $(window).resize(function () {
+        $('#sticky').css("width", "100%");
+        $('#sticky-cv').css("width", "100%");
     });
 });
+
+*/
 
 /* 
     Particles.js by Vincent Garreau
     https://github.com/VincentGarreau/particles.js/
 */
-particlesJS('particles-js', {
-  particles: {
-    color: '#fff',
-    shape: 'circle', // "circle", "edge" or "triangle"
-    opacity: 0.7,
-    size: 4,
-    size_random: true,
-    nb: 150,
-    line_linked: {
-      enable_auto: true,
-      distance: 100,
-      color: '#fff',
-      opacity: 0.7,
-      width: 1,
-      condensed_mode: {
-        enable: true,
-        rotateX: 600,
-        rotateY: 600
-      }
-    },
-    anim: {
-      enable: true,
-      speed: 2
+
+function pJS_desktop() {
+    particlesJS('particles-js', {
+        particles: {
+            color: '#fff',
+            shape: 'circle', // "circle", "edge" or "triangle"
+            opacity: 0.7,
+            size: 4,
+            size_random: true,
+            nb: 150,
+            line_linked: {
+                enable_auto: true,
+                distance: 100,
+                color: '#fff',
+                opacity: 0.7,
+                width: 1,
+                condensed_mode: {
+                    enable: true,
+                    rotateX: 600,
+                    rotateY: 600
+                }
+            },
+            anim: {
+                enable: true,
+                speed: 2
+            }
+        },
+        interactivity: {
+            enable: true,
+            mouse: {
+                distance: 200
+            },
+            detect_on: 'canvas', // "canvas" or "window"
+            mode: 'grab',
+            line_linked: {
+                opacity: 0.5
+            },
+            events: {
+                onclick: {
+                    enable: true,
+                    mode: 'push', // "push" or "remove"
+                    nb: 4
+                }
+            }
+        },
+        /* Retina Display Support */
+        retina_detect: true
+    });
+}
+
+function pJS_mobile() {
+    particlesJS('particles-js', {
+        particles: {
+            color: '#fff',
+            shape: 'circle', // "circle", "edge" or "triangle"
+            opacity: 0.7,
+            size: 4,
+            size_random: true,
+            nb: 50,
+            line_linked: {
+                enable_auto: true,
+                distance: 100,
+                color: '#fff',
+                opacity: 0.7,
+                width: 1,
+                condensed_mode: {
+                    enable: true,
+                    rotateX: 600,
+                    rotateY: 600
+                }
+            },
+            anim: {
+                enable: true,
+                speed: 2
+            }
+        },
+        interactivity: {
+            enable: false,
+            mouse: {
+                distance: 200
+            },
+            detect_on: 'canvas', // "canvas" or "window"
+            mode: 'grab',
+            line_linked: {
+                opacity: 0.5
+            },
+            events: {
+                onclick: {
+                    enable: false,
+                    mode: 'push', // "push" or "remove"
+                    nb: 4
+                }
+            }
+        },
+        /* Retina Display Support */
+        retina_detect: true
+    });
+}
+
+function checkOnResize() {
+    if (window.innerWidth > 1000) {
+        if (pJS.particles.nb !== 150) { // 150 = desktop setting
+            console.log('desktop mode');
+            pJS.fn.vendors.destroy();
+            pJS_desktop();
+        }
+    } else {
+        if (pJS.particles.nb === 150) { // 150 = desktop setting
+            console.log('mobile mode');
+            pJS.fn.vendors.destroy();
+            pJS_mobile();
+        }
     }
-  },
-  interactivity: {
-    enable: true,
-    mouse: {
-      distance: 200
-    },
-    detect_on: 'canvas', // "canvas" or "window"
-    mode: 'grab',
-    line_linked: {
-      opacity: 0.5
-    },
-    events: {
-      onclick: {
-        enable: true,
-        mode: 'push', // "push" or "remove"
-        nb: 4
-      }
-    }
-  },
-  /* Retina Display Support */
-  retina_detect: true
-});
+}
+
+if (window.innerWidth > 1000) { // pJS_desktop and pJS_mobile = my settings functions
+    pJS_desktop();
+} else {
+    pJS_mobile();
+}
+
+/* on resize */
+window.addEventListener('resize', function () { // use ".addEventListener", not ".onresize"
+    checkOnResize();
+}, true);
