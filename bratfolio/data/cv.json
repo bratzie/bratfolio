@@ -64,6 +64,43 @@
     ],
     "work": [
         {
+            "name": "Master's Thesis, LIVI",
+            "thumbUrl": "img/cv/livi.jpg",
+            "tags": [
+                "Interaction/UI/UX Design",
+                "Thesis",
+                "Research",
+                "User Studies",
+                "Front End Development",
+                "Prototyping"
+            ],
+            "startTime": "January 2016",
+            "endTime": "June 2016",
+            "description": "Exploring how in-vehicle infotainment research can be applied to light vehicles and designing an informed prototype for a light vehicle infotainment system.",
+            "snippet": "Emerging into a market where great improvements can be made.",
+            "achievements": [
+                "Bluetooth for daya",
+                "Conquered Phonegap",
+                "Product => Production"
+            ]
+        },
+        {
+            "name": "Graphical Artist, Stor&Liten",
+            "thumbUrl": "img/cv/storoliten.jpg",
+            "tags": [
+                "Graphical/Creative Design",
+                "UX Consulting"
+            ],
+            "startTime": "May 2015",
+            "endTime": "January 2016",
+            "description": "In charge of conceptualize and graphically design the weekly newsletter reaching their customers. An interesting challenge, as both children and adults read it. Designing for a broad audience is rewarding and fun. I also helped improve the webpage and designed graphical assets for places outside of the newsletter, such as the webpage and advertisement for the Stockholm subway.",
+            "snippet": "Designing for kids and adults at the same time gave a new perspective.",
+            "achievements": [
+                "Subway advertisment",
+                "Weekly challenges"
+            ]
+        },
+        {
             "name": "Spotify",
             "thumbUrl": "img/cv/spotify.jpg",
             "tags": [
@@ -96,7 +133,7 @@
                 "Repairs"
             ],
             "startTime": "February 2012",
-            "endTime": "Present",
+            "endTime": "January 2016",
             "description": "Making sure that computers, as well as everything revolving around them, works flawlessly for the employees at Svensk Handel. Anything and everything between reconfiguring networks and servers and searching for errors in different environments to making sure the computers and gadgets are actually plugged into the sockets.",
             "snippet": "I love helping people, better yet, making them understand.",
             "achievements": [
@@ -238,7 +275,6 @@
             "tags": [
                 "Video Editing",
                 "Storyboarding",
-                "2D ",
                 "Bartending",
                 "Drumming",
                 "Event Management",

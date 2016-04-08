@@ -11,7 +11,7 @@
     </a>
     <div class="container">
 
-        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+        <div class="header-line pink">
             <h2 class="default-cursor">{{project.title}}</h2>
         </div>
         <div class="less-squeezed min-height">
@@ -28,7 +28,6 @@
             <ul class="cv-focus core-skill expando-box" onClick="expandProjectInfo(this)">
                 <h2 class="sneaky">{{project.more}}</h2>
                 <div class="extra-info centered">
-                    <div class="spacer"> </div>
                     <li ng-repeat="section in project.details" class="columns list sub-skill">
                         <h2>{{section.title}}</h2>
                         <div ng-repeat="tag in section.tags">
@@ -39,7 +38,7 @@
             </ul>
         </div>
 
-        <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+        <div class="header-line pink">
             <span class="flaticon-camera7"></span>
             <h2 class="default-cursor">Media</h2>
         </div>
@@ -51,7 +50,7 @@
         
         <div class="centered">
             <div class="dual-column">
-                <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+                <div class="header-line pink">
                     <span class="flaticon-small61"></span>
                     <h2 class="default-cursor">Reflection</h2>
                 </div>
@@ -60,7 +59,7 @@
                 </div>
             </div>
             <div class="dual-column">
-                <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+                <div class="header-line pink">
                     <span class="flaticon-settings3"></span>
                     <h2 class="default-cursor">Process</h2>
                 </div>
@@ -72,7 +71,7 @@
         
         <div class="centered">
             <div class="dual-column">
-                <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+                <div class="header-line pink">
                     <span class="flaticon-world5"></span>
                     <h2 class="default-cursor">Links</h2>
                 </div>
@@ -81,7 +80,7 @@
                 </div>
             </div>
             <div class="dual-column">
-                <div class="header-line" ng-class="{'orange-border': setOrange, 'green-border': setGreen, 'pink-border': setPink}">
+                <div class="header-line pink">
                     <span class="flaticon-news"></span>
                     <h2 class="default-cursor">Information</h2>
                 </div>

@@ -4,14 +4,19 @@
 
 'use strict';
 
-
 function expandInfo(el) {
-    $(el).find('.extra-info').slideToggle("slow");
+    $(el).find('.extra-info').slideToggle({
+        duration: 400,
+        easing: "easeInOutQuart"
+    });
 }
 
 function expandProjectInfo(el) {
-    $(el).find('.extra-info').slideToggle("slow");
-    $(el).find('.sneaky').slideToggle("slow", function() {
+    $(el).find('.extra-info').slideToggle({
+        duration: 400,
+        easing: "easeInOutQuint"
+    });
+    $(el).find('.sneaky').slideToggle(400   , function() {
         $(el).find('.sneaky').html("I forgot what this thing said, show me again.");
     });
     
@@ -126,6 +131,9 @@ window.addEventListener('scroll', function () { onScroll(); }, true);
 
 window.addEventListener('resize', function () { onResize(); }, true);
 
+var em = "bratzie.biz";
+var fm = "bizman";
+
 /* =============================================================================================
 
     ANGULAR
@@ -172,6 +180,8 @@ angular.module('bratfolio', [
 .controller('MainCtrl', ['$scope',
     function ($scope) {
         showFooter();
+        
+        $scope.email = fm + "@" + em;
 }])
 
 .controller('IntroCtrl', ['$scope',
@@ -201,8 +211,6 @@ angular.module('bratfolio', [
         $http.get('http://baconipsum.com/api/?type=all-meat&paras=1').success(function (data) {
             $scope.bacon = data;
         });
-
-        $scope.hover = false;
 
         $scope.setPink = true;
         setPink();
