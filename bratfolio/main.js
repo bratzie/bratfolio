@@ -68,8 +68,12 @@ function stickyRelocate() {
     if (window_top > div_top) {
         $('#sticky').addClass('stick').width($(window).width());
         $('#sticky-cv').addClass('stick').width($(window).width());
-        $('#sticky-anchor').css("padding", "35px");
-        $('#sticky-cv-anchor').css("padding", "26px");
+        if ( $(window).width() >= 700 ) {
+            $('#sticky-anchor').css("padding", "35px");
+            $('#sticky-cv-anchor').css("padding", "26px");
+        } else {
+            $('#sticky-anchor').css("padding", "28px");
+        }
         $('#top-scroll').css("opacity", "1");
         $('#perm-top-scroll').css({
             "bottom": "-20px",
@@ -89,14 +93,18 @@ function stickyRelocate() {
 }
 
 function showFooter() {
-    if($(window).scrollTop() + $(window).height() >= $(document).height() - 50){
-        $('footer').css('padding-top', '15px');
-        $('footer').css('padding-bottom', '35px');
-        $('footer').css('opacity', '1');
+    if($(window).scrollTop() + $(window).height() >= $(document).height() - 50) {
+        $('footer').css({
+            'padding-top': '15px',
+            'padding-bottom': '35px',
+            'opacity': '1'
+        });
     } else {
-        $('footer').css('padding-top', '0px');
-        $('footer').css('padding-bottom', '0px');
-        $('footer').css('opacity', '0');
+        $('footer').css({
+            'padding-top': '0',
+            'padding-bottom': '0',
+            'opacity': '0'
+        });
     }
 }
 
