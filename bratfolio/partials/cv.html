@@ -25,8 +25,10 @@
             <ul class="cv-focus">
                 <li ng-repeat="(title, score) in cv.core" class="columns list core-skill">
                     <hr />
-                    <h2>{{title}}</h2>
-                    <h3>{{score}}/5</h3>
+                    <div class="core-skill-text">
+                        <h2>{{title}}</h2>
+                        <h3>{{score}}/5</h3>
+                    </div>
                     <hr />
                 </li>
             </ul>
@@ -118,8 +120,10 @@
             <ul class="cv-focus">
                 <li ng-repeat="(title, score) in cv.software" class="columns list core-skill">
                     <hr >
-                    <h2>{{title}}</h2>
-                    <h4>{{score}}</h4>
+                    <div class="core-skill-text">
+                        <h2>{{title}}</h2>
+                        <h4>{{score}}</h4>
+                    </div>
                     <hr >
                 </li>
                 <p class="cv-tags margin-top">Don't worry, I know my way around most software. Oh, and if I don't, I love figuring stuff out!</p>
@@ -135,8 +139,10 @@
         <ul class="cv-focus">
             <li ng-repeat="(title, score) in cv.languages" class="columns list core-skill">
                 <hr >
-                <h2>{{title}}</h2>
-                <h4>{{score}}</h4>
+                    <div class="core-skill-text">
+                        <h2>{{title}}</h2>
+                        <h4>{{score}}</h4>
+                    </div>
                 <hr >
             </li>
             <p class="cv-tags margin-top">Might know Spanish if you ask nicely... and I'm fluent in 1337 5P34K.</p>

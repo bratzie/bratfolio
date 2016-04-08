@@ -1200,6 +1200,10 @@ nav {
     .dual-column {
         width: 100%;
     }
+    
+    .core-skill-text {
+        min-height: 100px;
+    }
 }
 
 @media(max-width: 400px) {
@@ -1207,6 +1211,11 @@ nav {
         width: 100%;
         min-width: auto;
         text-align: center;
+    }
+    
+    .cv-list img {
+        display: block;
+        margin: 0 auto 10px;
     }
     
     .cv-part {
