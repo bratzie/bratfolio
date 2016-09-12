@@ -1,0 +1,54 @@
+{
+    "id": "rapp", 
+    "more": "That tiger looks swell. How'd you make all this?",
+    "images": [
+        "data/projects/rapp/rapp-old-1.png",
+        "data/projects/rapp/rapp-old-2.png",
+        "data/projects/rapp/rapp-old-3.png",
+        "data/projects/rapp/rapp-new-1.jpg",
+        "data/projects/rapp/rapp-new-2.jpg",
+        "data/projects/rapp/rapp-new-3.jpg"
+    ],
+    "header": "data/projects/rapp/rapp-header.jpg",
+    "title": "Prius - Never Ending Question Game",
+    "details": [
+        {
+            "title": "Skills",
+            "tags": [
+                "Graphical Design",
+                "Android Development",
+                "Prototyping",
+                "Adaptation"
+            ]
+        },
+        {
+            "title": "Software",
+            "tags": [
+                "Adobe Photoshop",
+                "Android Studio"
+            ]
+        },
+        {
+            "title": "Technology",
+            "tags": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "XML",
+                "Java"
+            ]
+        }
+    ],
+    "facts": {
+        "date": "October 2013", 
+        "stakeholder": "KTH", 
+        "time": "8 weeks",
+        "role": "Concept, Design",
+        "team": "9"
+    }, 
+    "description": "In progress...",
+    "reflection": "In progress...",
+    "process": "In progress...",
+    "links": "In progress...",
+    "information": "In progress..."
+}

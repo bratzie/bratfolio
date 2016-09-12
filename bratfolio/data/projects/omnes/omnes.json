@@ -1,0 +1,45 @@
+{
+    "id": "omnes", 
+    "more": "That tiger looks swell. How'd you make all this?",
+    "images": [
+        "data/projects/omnes/omn-1.jpg"
+    ],
+    "header": "data/projects/omnes/omn-header.jpg",
+    "title": "Omnes - Inclusive Commuting",
+    "details": [
+        {
+            "title": "Skills",
+            "tags": [
+                "Concepting",
+                "Graphical Design",
+                "Branding",
+                "User Research",
+                "Interviewing",
+                "Exhibition Preparation"
+            ]
+        },
+        {
+            "title": "Software",
+            "tags": [
+                "Adobe Photoshop",
+                "Adobe After Effects"
+            ]
+        },
+        {
+            "title": "Technology",
+            "tags": []
+        }
+    ],
+    "facts": {
+        "date": "October 2013", 
+        "stakeholder": "KTH", 
+        "time": "8 weeks",
+        "role": "Concept, Design, Exhibition, Branding",
+        "team": "5"
+    }, 
+    "description": "In progress...",
+    "reflection": "In progress...",
+    "process": "In progress...",
+    "links": "In progress...",
+    "information": "In progress..."
+}

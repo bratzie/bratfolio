@@ -2,13 +2,13 @@
     "id": "cozycave", 
     "more": "Ooh, this sounds interesting. Click here for more!",
     "images": [
-        "img/projects/cave-1.jpg", 
-        "img/projects/cave-2.jpg", 
-        "img/projects/cave-3.jpg", 
-        "img/projects/cave-4.jpg", 
-        "img/projects/cave-5.png"
+        "data/projects/cozycave/cave-1.jpg", 
+        "data/projects/cozycave/cave-2.jpg", 
+        "data/projects/cozycave/cave-3.jpg", 
+        "data/projects/cozycave/cave-4.jpg", 
+        "data/projects/cozycave/cave-5.png"
     ],
-    "header": "img/projects/cave-header.jpg",
+    "header": "data/projects/cozycave/cave-header.jpg",
     "title": "Cozy Cavern",
     "details": [
         {
@@ -18,7 +18,7 @@
                 "Design",
                 "Physical Prototyping",
                 "User Evaluation",
-                "Iterative Design"
+                "Iteractive Design"
             ]
         },
         {

@@ -1,9 +1,124 @@
 [
     {
+        "id": "tegis", 
+        "title": "TeGIS",
+        "date": 20160420,
+        "thumbUrl": "data/projects/tegis/tg-thumb.jpg",
+        "tags": [
+            "Internship",
+            "Tekis",
+            "Web",
+            "Knockout",
+            "UX",
+            "UI",
+            "Innovation"
+        ],
+        "snippet": "Over the course of a month we were tasked to make map creation and curation available for anyone."
+    },
+    {
+        "id": "prius", 
+        "title": "Prius",
+        "date": 20160420,
+        "thumbUrl": "data/projects/prius/pr-thumb.jpg",
+        "tags": [
+            "Project",
+            "KTH",
+            "Android",
+            "UX",
+            "UI",
+            "Adaptation",
+            "Design"
+        ],
+        "snippet": "An application that crawls the web in order to create new questions. Adapation from the board game 'När Då Då'."
+    },
+    {
+        "id": "unisl", 
+        "title": "UniSL",
+        "date": 20160420,
+        "thumbUrl": "data/projects/unisl/usl-thumb.jpg",
+        "tags": [
+            "eSports",
+            "Art Direction",
+            "Graphics",
+            "Design"
+        ],
+        "snippet": "I was the graphical design mastermind for the University Star League Starcraft 2 Tournament."
+    },
+    {
+        "id": "storochliten", 
+        "title": "Stor och Liten",
+        "date": 20150510,
+        "thumbUrl": "data/projects/storochliten/sol-thumb.jpg",
+        "tags": [
+            "Design",
+            "Consultant",
+            "Newsletter",
+            "Marketing",
+            "Commercial Design"
+        ],
+        "snippet": "Crazy project that I've done... Oh wait, it's this portfolio!"
+    },
+    {
+        "id": "newcv", 
+        "title": "A New CV",
+        "date": 20160110,
+        "thumbUrl": "data/projects/newcv/ncv-thumb.jpg",
+        "tags": [
+            "Personal",
+            "Photoshop",
+            "Design",
+            "Marketing"
+        ],
+        "snippet": "Every now and then, potential employers want to see what you've been up to."
+    },
+    {
+        "id": "omnes", 
+        "title": "Omnes",
+        "date": 20131010,
+        "thumbUrl": "data/projects/omnes/omn-thumb.jpg",
+        "tags": [
+            "Concept",
+            "Future",
+            "Sustainability",
+            "Design",
+            "Innovation",
+            "KTH"
+        ],
+        "snippet": "We were tasked to rethink commuting in the future. What we found out might actually work in the future!"
+    },
+    {
+        "id": "djubileet", 
+        "title": "dJubileet",
+        "date": 20121010,
+        "thumbUrl": "data/projects/djubileet/djb-thumb.jpg",
+        "tags": [
+            "Planning",
+            "PR",
+            "Design",
+            "KTH"
+        ],
+        "snippet": "Our chapter turned 30, we spent a year planning and delivered unforgettable experiences to our members."
+    },
+    {
+        "id": "rapp", 
+        "title": "Redesigning Rapp",
+        "date": 20141010,
+        "thumbUrl": "data/projects/rapp/rapp-thumb.jpg",
+        "tags": [
+            "Design",
+            "Mockup",
+            "User Testing",
+            "Evaluation",
+            "Redesign",
+            "KTH"
+        ],
+        "snippet": "A system designed a long time ago. It had this coming. Redesign proposal for a KTH course."
+    },
+    {
         "id": "portfolio", 
         "title": "My new portfolio",
         "date": 20141010,
-        "thumbUrl": "img/projects/portfolio-thumb.jpg",
+        "thumbUrl": "data/projects/portfolio/portfolio-thumb.jpg",
         "tags": [
             "Personal",
             "KTH",
@@ -11,12 +126,12 @@
             "AngularJS"
         ],
         "snippet": "Crazy project that I've done... Oh wait, it's this portfolio!"
-    }, 
+    },
     {
         "id": "gathempire",
         "title": "Gathempire",
         "date": 20141110,
-        "thumbUrl": "img/projects/gather-thumb.jpg",
+        "thumbUrl": "data/projects/gathempire/gather-thumb.jpg",
         "tags": [
             "KTH",
             "Web",
@@ -29,10 +144,10 @@
         "snippet": "A game where you collect resources using your GPS, and spend them on upgrading your virtual town."
     }, 
     {
-        "id": "poster", 
+        "id": "playground", 
         "title": "Playgrounds 2.0",
         "date": 20151010,
-        "thumbUrl": "img/projects/poster-thumb.jpg",
+        "thumbUrl": "data/projects/playground/playground-thumb.jpg",
         "tags": [
             "KTH",
             "Poster",
@@ -46,7 +161,7 @@
         "id": "cozycave", 
         "title": "Cozy Cavern",
         "date": 20121010,
-        "thumbUrl": "img/projects/cave-thumb.jpg",
+        "thumbUrl": "data/projects/cozycave/cave-thumb.jpg",
         "tags": [
             "KTH",
             "Prototyping",

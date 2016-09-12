@@ -1,0 +1,57 @@
+{
+    "id": "prius", 
+    "more": "That tiger looks swell. How'd you make all this?",
+    "images": [
+        "data/projects/prius/pr-1.png",
+        "data/projects/prius/pr-2.jpg",
+        "data/projects/prius/pr-3.jpg",
+        "data/projects/prius/pr-4.jpg",
+        "data/projects/prius/pr-5.jpg",
+        "data/projects/prius/pr-6.jpg",
+        "data/projects/prius/pr-7.jpg",
+        "data/projects/prius/pr-8.png",
+        "data/projects/prius/pr-9.png"
+    ],
+    "header": "data/projects/prius/pr-header.jpg",
+    "title": "Prius - Never Ending Question Game",
+    "details": [
+        {
+            "title": "Skills",
+            "tags": [
+                "Graphical Design",
+                "Android Development",
+                "Prototyping",
+                "Adaptation"
+            ]
+        },
+        {
+            "title": "Software",
+            "tags": [
+                "Adobe Photoshop",
+                "Android Studio"
+            ]
+        },
+        {
+            "title": "Technology",
+            "tags": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "XML",
+                "Java"
+            ]
+        }
+    ],
+    "facts": {
+        "date": "October 2013", 
+        "stakeholder": "Findwise, KTH", 
+        "time": "6 months",
+        "role": "Concept, Design",
+        "team": "9"
+    }, 
+    "description": "In progress...",
+    "reflection": "In progress...",
+    "process": "In progress...",
+    "links": "In progress...",
+    "information": "In progress..."
+}

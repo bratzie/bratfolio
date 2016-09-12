@@ -1,0 +1,53 @@
+{
+    "id": "storochliten", 
+    "more": "Wow, you sure know how to market things! How?",
+    "images": [
+        "data/projects/storochliten/sol-1.jpg",
+        "data/projects/storochliten/sol-2.jpg",
+        "data/projects/storochliten/sol-3.jpg",
+        "data/projects/storochliten/sol-4.jpg",
+        "data/projects/storochliten/sol-5.jpg",
+        "data/projects/storochliten/sol-6.jpg",
+        "data/projects/storochliten/sol-7.jpg"
+    ],
+    "header": "data/projects/storochliten/sol-header.jpg",
+    "title": "On Demand Designer for Stor och Liten",
+    "details": [
+        {
+            "title": "Skills",
+            "tags": [
+                "Graphical Design",
+                "Android Development",
+                "Prototyping",
+                "Adaptation"
+            ]
+        },
+        {
+            "title": "Software",
+            "tags": [
+                "Adobe Photoshop",
+                "Brackets"
+            ]
+        },
+        {
+            "title": "Technology",
+            "tags": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ]
+        }
+    ],
+    "facts": {
+        "date": "2015-2016",
+        "stakeholder": "Stor och Liten",
+        "time": "12 months",
+        "role": "Ideation, Creative Marketing, Design",
+        "team": "1"
+    }, 
+    "description": "In progress...",
+    "reflection": "In progress...",
+    "process": "In progress...",
+    "links": "In progress...",
+    "information": "In progress..."
+}

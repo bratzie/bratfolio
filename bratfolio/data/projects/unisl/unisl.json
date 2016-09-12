@@ -1,0 +1,56 @@
+{
+    "id": "unisl", 
+    "more": "Wow, you sure know how to market things! How?",
+    "images": [
+        "data/projects/unisl/usl-2.jpg",
+        "data/projects/unisl/usl-3.jpg",
+        "data/projects/unisl/usl-4.jpg",
+        "data/projects/unisl/usl-5.jpg",
+        "data/projects/unisl/usl-6.jpg"
+    ],
+    "header": "data/projects/unisl/usl-header.jpg",
+    "title": "Maps For Everyone at Tekis",
+    "details": [
+        {
+            "title": "Skills",
+            "tags": [
+                "Web Development",
+                "Accessibility",
+                "Graphical Design",
+                "Prototyping",
+                "User Testing"
+            ]
+        },
+        {
+            "title": "Software",
+            "tags": [
+                "Adobe Photoshop",
+                "Brackets",
+                "Visual Studio"
+            ]
+        },
+        {
+            "title": "Technology",
+            "tags": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "KnockoutJS",
+                "Mapbox",
+                "Open Layers 3"
+            ]
+        }
+    ],
+    "facts": {
+        "date": "June 2015",
+        "stakeholder": "Tekis",
+        "time": "1 month",
+        "role": "Developer, UI, UX, Design",
+        "team": "2"
+    }, 
+    "description": "In progress...",
+    "reflection": "In progress...",
+    "process": "In progress...",
+    "links": "In progress...",
+    "information": "In progress..."
+}

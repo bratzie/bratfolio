@@ -1,0 +1,41 @@
+{
+    "id": "newcv", 
+    "more": "Sounds like a new CV was way overdue. How'd you do it?",
+    "images": [
+        "data/projects/newcv/ncv-1.jpg", 
+        "data/projects/newcv/ncv-2.png"
+    ],
+    "header": "data/projects/newcv/ncv-header.jpg",
+    "title": "Computer Science Chapter at KTH turned 30",
+    "details": [
+        {
+            "title": "Skills",
+            "tags": [
+                "Graphical Design",
+                "Marketing"
+            ]
+        },
+        {
+            "title": "Software",
+            "tags": [
+                "Adobe Photoshop"
+            ]
+        },
+        {
+            "title": "Technology",
+            "tags": []
+        }
+    ],
+    "facts": {
+        "date": "2016", 
+        "stakeholder": "Personal", 
+        "time": "1 day",
+        "role": "Everything",
+        "team": "1"
+    }, 
+    "description": "In progress...",
+    "reflection": "In progress...",
+    "process": "In progress...",
+    "links": "In progress...",
+    "information": "In progress..."
+}

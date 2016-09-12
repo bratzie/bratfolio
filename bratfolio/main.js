@@ -1,5 +1,3 @@
-/*jslint white: true */
-/*jslint node: true */
 /*global angular, $, particlesJS, pJS */
 
 'use strict';
@@ -216,10 +214,6 @@ angular.module('bratfolio', [
             $scope.projects = data;
         });
 
-        $http.get('http://baconipsum.com/api/?type=all-meat&paras=1').success(function (data) {
-            $scope.bacon = data;
-        });
-
         $scope.setPink = true;
         setPink();
         showFooter();
@@ -227,7 +221,7 @@ angular.module('bratfolio', [
 
 .controller('ProjectCtrl', ['$scope', '$routeParams', '$http',
     function ($scope, $routeParams, $http) {
-        $http.get('data/projects/' + $routeParams.projectId + '.json').success(function (data) {
+        $http.get('data/projects/' + $routeParams.projectId + '/' + $routeParams.projectId + '.json').success(function (data) {
             console.log(data);
             $scope.project = data;
         });
@@ -238,22 +232,6 @@ angular.module('bratfolio', [
         setPink();
         showFooter();
 }]);
-
-/*
-  
-$(function () {
-    $(window).scroll(stickyRelocate);
-    $(window).scroll(showFooter);
-});
-
-$(function () {
-    $(window).resize(function () {
-        $('#sticky').css("width", "100%");
-        $('#sticky-cv').css("width", "100%");
-    });
-});
-
-*/
 
 /* 
     Particles.js by Vincent Garreau
@@ -317,9 +295,9 @@ function pJS_mobile() {
             opacity: 0.7,
             size: 4,
             size_random: true,
-            nb: 50,
+            nb: 25,
             line_linked: {
-                enable_auto: true,
+                enable_auto: false,
                 distance: 100,
                 color: '#fff',
                 opacity: 0.7,

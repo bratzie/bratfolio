@@ -1,0 +1,63 @@
+{
+    "id": "tegis", 
+    "more": "Wow, you sure know how to market things! How?",
+    "images": [
+        "data/projects/tegis/tg-1.png",
+        "data/projects/tegis/tg-2.png",
+        "data/projects/tegis/tg-3.png",
+        "data/projects/tegis/tg-4.png",
+        "data/projects/tegis/tg-5.png",
+        "data/projects/tegis/tg-6.png",
+        "data/projects/tegis/tg-7.png",
+        "data/projects/tegis/tg-8.png",
+        "data/projects/tegis/tg-9.png",
+        "data/projects/tegis/tg-logo-1.png",
+        "data/projects/tegis/tg-logo-2.png",
+        "data/projects/tegis/tg-logo-3.png"
+    ],
+    "header": "data/projects/tegis/tg-header.jpg",
+    "title": "Maps For Everyone at Tekis",
+    "details": [
+        {
+            "title": "Skills",
+            "tags": [
+                "Web Development",
+                "Accessibility",
+                "Graphical Design",
+                "Prototyping",
+                "User Testing"
+            ]
+        },
+        {
+            "title": "Software",
+            "tags": [
+                "Adobe Photoshop",
+                "Brackets",
+                "Visual Studio"
+            ]
+        },
+        {
+            "title": "Technology",
+            "tags": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "KnockoutJS",
+                "Mapbox",
+                "Open Layers 3"
+            ]
+        }
+    ],
+    "facts": {
+        "date": "June 2015",
+        "stakeholder": "Tekis",
+        "time": "1 month",
+        "role": "Developer, UI, UX, Design",
+        "team": "2"
+    }, 
+    "description": "In progress...",
+    "reflection": "In progress...",
+    "process": "In progress...",
+    "links": "In progress...",
+    "information": "In progress..."
+}
