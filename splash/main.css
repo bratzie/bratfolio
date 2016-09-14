@@ -150,6 +150,13 @@ nav p {
   border: 4px dashed #eee;
 }
 
+.icon {
+  color: #eee;
+  position: relative;
+  top: 19px;
+  font-size: 2em;
+}
+
 .clickable:hover .circle {
   border-color: #666;
   animation-name: spin;
@@ -168,13 +175,6 @@ nav p {
 
 .clickable:hover p {
   color: #eee;
-}
-
-.icon {
-  color: #eee;
-  position: relative;
-  top: 19px;
-  font-size: 2em;
 }
 
 @media screen and (max-width: 800px)  {

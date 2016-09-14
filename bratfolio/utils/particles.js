@@ -2,6 +2,8 @@
     Particles.js by Vincent Garreau
     https://github.com/VincentGarreau/particles.js/
 */
+particlesJS();
+
 var config = {
   "particles": {
     "number": {
@@ -106,7 +108,7 @@ function particles(mode) {
       break;
     }
     default: {
-      console.log('No mode specified. Please choose: desktop/mobile')
+      console.log("No mode specified. Please choose: 'desktop' or 'mobile'")
     }
   }
 }
@@ -114,7 +116,7 @@ function particles(mode) {
 var desktop;
 
 function checkOnResize() {
-  if (window.innerWidth > 1000) {
+  if (window.innerWidth > 800) {
     if (!desktop) {
       particles('desktop');
       desktop = true;
@@ -127,13 +129,11 @@ function checkOnResize() {
   }
 }
 
-if (window.innerWidth > 1000) {
-  particlesJS('particles-js', config);
+if (window.innerWidth > 800) {
   pJS('particles-js', config);
   desktop = true;
 } else {
   config.particles.number.value = 50;
-  particlesJS('particles-js', config);
   pJS('particles-js', config);
   desktop = false;
 }
