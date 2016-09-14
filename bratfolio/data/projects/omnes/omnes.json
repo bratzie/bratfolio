@@ -1,45 +1,44 @@
 {
-    "id": "omnes", 
-    "more": "That tiger looks swell. How'd you make all this?",
-    "images": [
-        "data/projects/omnes/omn-1.jpg"
-    ],
-    "header": "data/projects/omnes/omn-header.jpg",
-    "title": "Omnes - Inclusive Commuting",
-    "details": [
-        {
-            "title": "Skills",
-            "tags": [
-                "Concepting",
-                "Graphical Design",
-                "Branding",
-                "User Research",
-                "Interviewing",
-                "Exhibition Preparation"
-            ]
-        },
-        {
-            "title": "Software",
-            "tags": [
-                "Adobe Photoshop",
-                "Adobe After Effects"
-            ]
-        },
-        {
-            "title": "Technology",
-            "tags": []
-        }
-    ],
-    "facts": {
-        "date": "October 2013", 
-        "stakeholder": "KTH", 
-        "time": "8 weeks",
-        "role": "Concept, Design, Exhibition, Branding",
-        "team": "5"
-    }, 
-    "description": "In progress...",
-    "reflection": "In progress...",
-    "process": "In progress...",
-    "links": "In progress...",
-    "information": "In progress..."
+  "id": "omnes", 
+  "more": "This sounds pretty win-win, how'd you come up with this?",
+  "images": [
+    "data/projects/omnes/omn-1.jpg"
+  ],
+  "header": "data/projects/omnes/omn-header.jpg",
+  "title": "Omnes - Inclusive Commuting",
+  "details": [
+    {
+      "title": "Skills",
+      "tags": [
+        "Concepting",
+        "Graphical Design",
+        "User Research",
+        "Interviewing",
+        "Exhibition Preparation"
+      ]
+    },
+    {
+      "title": "Software",
+      "tags": [
+        "Adobe Photoshop",
+        "Adobe After Effects"
+      ]
+    },
+    {
+      "title": "Technology",
+      "tags": []
+    }
+  ],
+  "facts": {
+    "date": "October 2013", 
+    "stakeholder": "KTH", 
+    "time": "8 weeks",
+    "role": "Concept, Design, Exhibition",
+    "team": "5"
+  }, 
+  "description": "As the final project in the Cooperative IT-design, DH2460, course at KTH we were tasked with coming up with a creative solution to the commuting and traffic problem for Stockholm in the future. As a group of 5 students we developed the idea of Omnes, a ride-sharing system connected to the societal structure. This connection was meant to incite and encourage everyone to just think where they were going, and not how, letting the system figure that out for them. The project ended with an exhibition at Spårvägsmuseet where anyone could come and look at our exhibition and ask questions.",
+  "reflection": "The project was very well received during the exhibition and in hindsight UberPOP bears a close resemblance to what our solution could have looked like if it would have been actualized.",
+  "process": "We started by researching what had been done and performed different workshops and seminars to get ideas from relevant people in the insdustry. After that, the Omnes name and idea stood out as the best choice. The rest of the work revolved around finalizing the idea and producing material for the exhibition. The final hand in consisted of a report with 50 pages.",
+  "links": "The final report can be found here (in Swedish): www.diva-portal.org/smash/record.jsf?pid=diva2:691904",
+  "information": "This project was a part of the DH2560 course, Cooperative IT-design, at the Royal Institute of Technology. It was the final project for that course and it spanned 8 weeks. I took the role as a creative director within the team."
 }

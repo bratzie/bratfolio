@@ -1,58 +1,58 @@
 {
-    "id": "gathempire", 
-    "more": "Wow! This game rocks. Click here for more!",
-    "images": [
-        "img/projects/gather-1.png", 
-        "img/projects/gather-2.jpg", 
-        "img/projects/gather-3.png", 
-        "img/projects/gather-4.gif",
-        "img/projects/gather-5.png",
-        "img/projects/gather-6.png",
-        "img/projects/gather-7.png"
-    ],
-    "header": "img/projects/gather-header.jpg",
-    "title": "Gathempire",
-    "details": [
-        {
-            "title": "Skills",
-            "tags": [
-                "Layouting",
-                "Design",
-                "Front end development",
-                "Mobile web",
-                "Iterative Design"
-            ]
-        },
-        {
-            "title": "Software",
-            "tags": [
-                "Adobe Photoshop",
-                "Sublime Text 3",
-                "Brackets"
-            ]
-        },
-        {
-            "title": "Technology",
-            "tags": [
-                "Google Maps API",
-                "GPS",
-                "HTML",
-                "CSS",
-                "Javascript",
-                "jQuery"
-            ]
-        }
-    ],
-    "facts": {
-        "date": "November 2014", 
-        "stakeholder": "KTH", 
-        "time": "4 weeks",
-        "role": "UI, UX, Concept, Development",
-        "team": "2"
-    }, 
-    "description": "A lot of people seem to think that children nowadays spend to much time indoors. So as a commercial design project the game Gathempire was formed. This is a game where you use your mobile phone to gather resources within the real world. Resources are spawned around you and will be visible through the mobile app. The game will be accessible via a browser in order to provide a better overall experience and a better overview of your empire. You use the resources to build a base, and the commercial aspect consists of selling positional data as well as micro transactions.",
-    "reflection": "It was awesome getting to play around a bit with the Google Maps API for this project. Some inspiration was taken from the game Ingress, developed by Google. Gathempire, however, focuses more on the gathering- and base buildling aspect. I considered developing this further, from concept to finished game. The game is somewhat rough as of now.",
-    "process": "We tried a lot of different approaches for the commercial design part and ended up with developing a concept for a mobile game. We sketched the basic interactions and spent most of the time developing the look and feel of the prototype. A core thread with this project was how to monetize it, which we decided to do mainly via in-game microtransactions.",
-    "links": "Link to prototype might pop up here soon!",
-    "information": "I was in charge of the main concept as well as developing the prototype. As I was very interested in testing out the Maps API as well as the phone GPS I did most of the programming. Sarah Bernelind, my partner in crime, helped with hand-drawn concept art and gameplay and monetization ideas."
+  "id": "gathempire", 
+  "more": "Wow! This game rocks. Click here for more!",
+  "images": [
+    "img/projects/gather-1.png", 
+    "img/projects/gather-2.jpg", 
+    "img/projects/gather-3.png", 
+    "img/projects/gather-4.gif",
+    "img/projects/gather-5.png",
+    "img/projects/gather-6.png",
+    "img/projects/gather-7.png"
+  ],
+  "header": "img/projects/gather-header.jpg",
+  "title": "Gathempire",
+  "details": [
+    {
+      "title": "Skills",
+      "tags": [
+        "Layouting",
+        "Design",
+        "Front end development",
+        "Mobile web",
+        "Iterative Design"
+      ]
+    },
+    {
+      "title": "Software",
+      "tags": [
+        "Adobe Photoshop",
+        "Sublime Text 3",
+        "Brackets"
+      ]
+    },
+    {
+      "title": "Technology",
+      "tags": [
+        "Google Maps API",
+        "GPS",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "jQuery"
+      ]
+    }
+  ],
+  "facts": {
+    "date": "November 2014", 
+    "stakeholder": "KTH", 
+    "time": "4 weeks",
+    "role": "UI, UX, Concept, Development",
+    "team": "2"
+  }, 
+  "description": "A lot of people seem to think that children nowadays spend to much time indoors. So as a commercial design project the game Gathempire was formed. This is a game where you use your mobile phone to gather resources within the real world. Resources are spawned around you and will be visible through the mobile app. The game will be accessible via a browser in order to provide a better overall experience and a better overview of your empire. You use the resources to build a base, and the commercial aspect consists of selling positional data as well as micro transactions.",
+  "reflection": "It was awesome getting to play around a bit with the Google Maps API for this project. Some inspiration was taken from the game Ingress, developed by Google. Gathempire, however, focuses more on the gathering- and base buildling aspect. I considered developing this further, from concept to finished game. The game is somewhat rough as of now.",
+  "process": "We tried a lot of different approaches for the commercial design part and ended up with developing a concept for a mobile game. We sketched the basic interactions and spent most of the time developing the look and feel of the prototype. A core thread with this project was how to monetize it, which we decided to do mainly via in-game microtransactions.",
+  "links": "No links for this project.",
+  "information": "I was in charge of the main concept as well as developing the prototype. As I was very interested in testing out the Maps API as well as the phone GPS I did most of the programming. Sarah Bernelind, my partner in crime, helped with hand-drawn concept art and gameplay and monetization ideas."
 }

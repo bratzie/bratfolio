@@ -1,41 +1,41 @@
 {
-    "id": "newcv", 
-    "more": "Sounds like a new CV was way overdue. How'd you do it?",
-    "images": [
-        "data/projects/newcv/ncv-1.jpg", 
-        "data/projects/newcv/ncv-2.png"
-    ],
-    "header": "data/projects/newcv/ncv-header.jpg",
-    "title": "Computer Science Chapter at KTH turned 30",
-    "details": [
-        {
-            "title": "Skills",
-            "tags": [
-                "Graphical Design",
-                "Marketing"
-            ]
-        },
-        {
-            "title": "Software",
-            "tags": [
-                "Adobe Photoshop"
-            ]
-        },
-        {
-            "title": "Technology",
-            "tags": []
-        }
-    ],
-    "facts": {
-        "date": "2016", 
-        "stakeholder": "Personal", 
-        "time": "1 day",
-        "role": "Everything",
-        "team": "1"
-    }, 
-    "description": "In progress...",
-    "reflection": "In progress...",
-    "process": "In progress...",
-    "links": "In progress...",
-    "information": "In progress..."
+  "id": "newcv",
+  "more": "Sounds like a new CV was way overdue. How'd you do it?",
+  "images": [
+    "data/projects/newcv/ncv-1.jpg",
+    "data/projects/newcv/ncv-2.png"
+  ],
+  "header": "data/projects/newcv/ncv-1.jpg",
+  "title": "A good resume is the entrypoint to a great job",
+  "details": [
+    {
+      "title": "Skills",
+      "tags": [
+        "Graphical Design",
+        "Marketing"
+      ]
+    },
+    {
+      "title": "Software",
+      "tags": [
+        "Adobe Photoshop"
+      ]
+    },
+    {
+      "title": "Technology",
+      "tags": []
+    }
+  ],
+  "facts": {
+    "date": "2016",
+    "stakeholder": "Personal",
+    "time": "1 day",
+    "role": "Everything",
+    "team": "1"
+  },
+  "description": "As I was about to graduate, when I was finishing up my master's thesis, I realized that I still had no definitive plans for where I would go after I was done with school. In order to facilitate the job hunt I had to update my CV. I knew I wanted it to fit on one page and give the employer a good quick overview of who I am while at the same time conveying that I have a good eye for design. All in all, I think the end result turned out great. And since I got the first job I applied to with the new CV, I'd say it did its job!",
+  "reflection": "I think the project turned out very good and it felt great to finally have a CV that I was proud of.",
+  "process": "I had a pretty good plan thought out before I sat down to design the CV. I sketched it out on paper and I was sure that I wanted to display my experience in some form of timeline. Since I wanted the CV to relate to my digital CV (found on this site) I used the same iconography and fonts. After a few hours in photoshop, the final CV was complete.",
+  "links": "No links for this project.",
+  "information": "When searching for a job, the difference between a good or bad CV makes or breaks your application. I saw the need to update mine and did so accordingly."
 }

@@ -1,54 +1,49 @@
 {
-    "id": "rapp", 
-    "more": "That tiger looks swell. How'd you make all this?",
-    "images": [
-        "data/projects/rapp/rapp-old-1.png",
-        "data/projects/rapp/rapp-old-2.png",
-        "data/projects/rapp/rapp-old-3.png",
-        "data/projects/rapp/rapp-new-1.jpg",
-        "data/projects/rapp/rapp-new-2.jpg",
-        "data/projects/rapp/rapp-new-3.jpg"
-    ],
-    "header": "data/projects/rapp/rapp-header.jpg",
-    "title": "Prius - Never Ending Question Game",
-    "details": [
-        {
-            "title": "Skills",
-            "tags": [
-                "Graphical Design",
-                "Android Development",
-                "Prototyping",
-                "Adaptation"
-            ]
-        },
-        {
-            "title": "Software",
-            "tags": [
-                "Adobe Photoshop",
-                "Android Studio"
-            ]
-        },
-        {
-            "title": "Technology",
-            "tags": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "XML",
-                "Java"
-            ]
-        }
-    ],
-    "facts": {
-        "date": "October 2013", 
-        "stakeholder": "KTH", 
-        "time": "8 weeks",
-        "role": "Concept, Design",
-        "team": "9"
-    }, 
-    "description": "In progress...",
-    "reflection": "In progress...",
-    "process": "In progress...",
-    "links": "In progress...",
-    "information": "In progress..."
+  "id": "rapp", 
+  "more": "Now that's a good looking system. Show me how you did it!",
+  "images": [
+    "data/projects/rapp/rapp-old-1.png",
+    "data/projects/rapp/rapp-old-2.png",
+    "data/projects/rapp/rapp-old-3.png",
+    "data/projects/rapp/rapp-new-1.jpg",
+    "data/projects/rapp/rapp-new-2.jpg",
+    "data/projects/rapp/rapp-new-3.jpg"
+  ],
+  "header": "data/projects/rapp/rapp-header.jpg",
+  "title": "Proposing a redesign for the most hated system at KTH",
+  "details": [
+    {
+      "title": "Skills",
+      "tags": [
+        "Graphical Design",
+        "User Testing",
+        "Prototyping"
+      ]
+    },
+    {
+      "title": "Software",
+      "tags": [
+        "Adobe Photoshop"
+      ]
+    },
+    {
+      "title": "Technology",
+      "tags": [
+        "Eye Tracking",
+        "User Monitoring"
+      ]
+    }
+  ],
+  "facts": {
+    "date": "October 2013", 
+    "stakeholder": "KTH", 
+    "time": "8 weeks",
+    "role": "Concept, Design, User Tester",
+    "team": "3"
+  }, 
+  "description": "The group was tasked with proposing a redesign for a system where a part of the teachers at the university tracked grades and course progress. Since all of the group members had used the system earlier, we knew we were in for a fun time when this project was available for us to do. The work included both a visual redesign as well as a report of the user studies that were performed. In addition to this we included a list of quick fixes that could be performed in order to significantly improve the experience without a visual overhaul.",
+  "reflection": "It was a lot of fun redesigning a system that I had used many times before. Performing the user tests and noticing that everybody disliked the system the same way we did was an interesting experience. In the end, I realize that KTH probably never will implement our graphical overhaul, but it wa a bummer that they never even bothered to implement the quick fixes. The quick fixes could have been fixed in half a day and would have increased usability by a marathon...",
+  "process": "We started off identifying users and booked sessions with them in order to get a grasp of what the daily users were struggling with. After that, we started our ideation process and produced some suggested changes. Once they were done, we invited users to testing sessions in which we validated our proposals.",
+  "links": "No links for this project.",
+  "information": "I was in charge of producing low- and high fidelity mockups for the testing sessions as well as facilitating the user testing."
 }

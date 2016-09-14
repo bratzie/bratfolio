@@ -1,47 +1,47 @@
 {
-    "id": "playground", 
-    "more": "I'd love me some interactivity. Click here for more!",
-    "images": [
-        "img/projects/playground-1.jpg", 
-        "img/projects/playground-2.jpg", 
-        "img/projects/playground-3.jpg", 
-        "img/projects/playground-4.jpg", 
-        "img/projects/playground-5.jpg", 
-        "img/projects/playground-6.jpg", 
-        "img/projects/playground-7.jpg"
-    ],
-    "header": "img/projects/playground-header.jpg",
-    "title": "Interactive Playgrounds",
-    "details": [
-        {
-            "title": "Skills",
-            "tags": [
-                "Layouting",
-                "Design",
-                "Sketching"
-            ]
-        },
-        {
-            "title": "Software",
-            "tags": [
-                "Adobe Photoshop"
-            ]
-        },
-        {
-            "title": "Technology",
-            "tags": []
-        }
-    ],
-    "facts": {
-        "date": "September 2014", 
-        "stakeholder": "KTH", 
-        "time": "4 weeks",
-        "role": "Explorer, Concept, Designer",
-        "team": "2"
-    }, 
-    "description": "First out in our interaction design course was explorative design. We were supposed to conceptualize ways to make playgrounds interactive. At the end of the project we presented 3 radically different ideas ranging from a modified seesaw to an interactive light trail. Take a look at the posters below to get an idea of the different concepts.",
-    "reflection": " This was the first time I used PLEX cards and it turned out to bring out some funky ideas. It would be cool to further develop and try one of the games in practice.",
-    "process": "We used PLEX cards to help in our initial ideation phase, we later refined the ideas and fleshed out posters for presentation.",
-    "links": "No links for this project...",
-    "information": "This was the first part in the Interaction Design 2 couse at KTH. The area was explorative design and I worked together with Ida Vainionpää to design 3 different playground ideas and present them as posters. I was in charge of digitalizing the posters, we designed them together by hand, and I took them through Photoshop."
+  "id": "playground", 
+  "more": "I'd love me some interactivity. Click here for more!",
+  "images": [
+    "img/projects/playground-1.jpg", 
+    "img/projects/playground-2.jpg", 
+    "img/projects/playground-3.jpg", 
+    "img/projects/playground-4.jpg", 
+    "img/projects/playground-5.jpg", 
+    "img/projects/playground-6.jpg", 
+    "img/projects/playground-7.jpg"
+  ],
+  "header": "img/projects/playground-header.jpg",
+  "title": "Interactive Playgrounds",
+  "details": [
+    {
+      "title": "Skills",
+      "tags": [
+        "Layouting",
+        "Design",
+        "Sketching"
+      ]
+    },
+    {
+      "title": "Software",
+      "tags": [
+        "Adobe Photoshop"
+      ]
+    },
+    {
+      "title": "Technology",
+      "tags": []
+    }
+  ],
+  "facts": {
+    "date": "September 2014", 
+    "stakeholder": "KTH", 
+    "time": "4 weeks",
+    "role": "Explorer, Concept, Designer",
+    "team": "2"
+  }, 
+  "description": "First out in our interaction design course was explorative design. We were supposed to conceptualize ways to make playgrounds interactive. At the end of the project we presented 3 radically different ideas ranging from a modified seesaw to an interactive light trail. Take a look at the posters below to get an idea of the different concepts.",
+  "reflection": " This was the first time I used PLEX cards and it turned out to bring out some funky ideas. It would be cool to further develop and try one of the games in practice.",
+  "process": "We used PLEX cards to help in our initial ideation phase, we later refined the ideas and fleshed out posters for presentation.",
+  "links": "No links for this project.",
+  "information": "This was the first part in the Interaction Design 2 couse at KTH. The area was explorative design and I worked together with Ida Vainionpää to design 3 different playground ideas and present them as posters. I was in charge of digitalizing the posters, we designed them together by hand, and I took them through Photoshop."
 }

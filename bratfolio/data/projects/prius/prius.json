@@ -1,57 +1,57 @@
 {
-    "id": "prius", 
-    "more": "That tiger looks swell. How'd you make all this?",
-    "images": [
-        "data/projects/prius/pr-1.png",
-        "data/projects/prius/pr-2.jpg",
-        "data/projects/prius/pr-3.jpg",
-        "data/projects/prius/pr-4.jpg",
-        "data/projects/prius/pr-5.jpg",
-        "data/projects/prius/pr-6.jpg",
-        "data/projects/prius/pr-7.jpg",
-        "data/projects/prius/pr-8.png",
-        "data/projects/prius/pr-9.png"
-    ],
-    "header": "data/projects/prius/pr-header.jpg",
-    "title": "Prius - Never Ending Question Game",
-    "details": [
-        {
-            "title": "Skills",
-            "tags": [
-                "Graphical Design",
-                "Android Development",
-                "Prototyping",
-                "Adaptation"
-            ]
-        },
-        {
-            "title": "Software",
-            "tags": [
-                "Adobe Photoshop",
-                "Android Studio"
-            ]
-        },
-        {
-            "title": "Technology",
-            "tags": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "XML",
-                "Java"
-            ]
-        }
-    ],
-    "facts": {
-        "date": "October 2013", 
-        "stakeholder": "Findwise, KTH", 
-        "time": "6 months",
-        "role": "Concept, Design",
-        "team": "9"
-    }, 
-    "description": "In progress...",
-    "reflection": "In progress...",
-    "process": "In progress...",
-    "links": "In progress...",
-    "information": "In progress..."
+  "id": "prius", 
+  "more": "That's a pretty sweet looking app. How'd you make all this?",
+  "images": [
+    "data/projects/prius/pr-1.png",
+    "data/projects/prius/pr-2.jpg",
+    "data/projects/prius/pr-3.jpg",
+    "data/projects/prius/pr-4.jpg",
+    "data/projects/prius/pr-5.jpg",
+    "data/projects/prius/pr-6.jpg",
+    "data/projects/prius/pr-7.jpg",
+    "data/projects/prius/pr-8.png",
+    "data/projects/prius/pr-9.png"
+  ],
+  "header": "data/projects/prius/pr-header.jpg",
+  "title": "Prius - Never Ending Question Game",
+  "details": [
+    {
+      "title": "Skills",
+      "tags": [
+        "Graphical Design",
+        "Android Development",
+        "Prototyping",
+        "Adaptation"
+      ]
+    },
+    {
+      "title": "Software",
+      "tags": [
+        "Adobe Photoshop",
+        "Android Studio"
+      ]
+    },
+    {
+      "title": "Technology",
+      "tags": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "XML",
+        "Java"
+      ]
+    }
+  ],
+  "facts": {
+    "date": "October 2013", 
+    "stakeholder": "Findwise, KTH", 
+    "time": "6 months",
+    "role": "Concept, Design",
+    "team": "9"
+  }, 
+  "description": "As a part of our software engineering course, DD1365, we were presented with a bunch of different project cases from different companies. Our team chose Findwise. They had a project revolving around adapting the game 'När Då Då' to a mobile game with a big focus on crawling the web for questions. The end result was a question-based game which crawled wikipedia to produce the games' questions.",
+  "reflection": "Developing an android app was a great experience. Another great aspect of the project was the practice I got adapting a well known game into a mobile adaptation trying to reuse cues to make players who had played 'När Då Då' feel right at home in the app.",
+  "process": "The course relied heavily on the waterfall method which meant producing a lot of documents ahead of time. This approach to a project was very bureaucratic and felt overly complicated for a project of this size. We tried merging it with a somewhat agile approach to some success.",
+  "links": "No links for this project.",
+  "information": "I was in charge of design and helped with the front end and android development for the project. The group was split up into 3 groups of 3. One management group, one crawler/back end group and one android/front end group. I was a part of the latter."
 }

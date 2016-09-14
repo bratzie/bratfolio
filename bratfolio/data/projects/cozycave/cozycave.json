@@ -1,49 +1,49 @@
 {
-    "id": "cozycave", 
-    "more": "Ooh, this sounds interesting. Click here for more!",
-    "images": [
-        "data/projects/cozycave/cave-1.jpg", 
-        "data/projects/cozycave/cave-2.jpg", 
-        "data/projects/cozycave/cave-3.jpg", 
-        "data/projects/cozycave/cave-4.jpg", 
-        "data/projects/cozycave/cave-5.png"
-    ],
-    "header": "data/projects/cozycave/cave-header.jpg",
-    "title": "Cozy Cavern",
-    "details": [
-        {
-            "title": "Skills",
-            "tags": [
-                "Concepting",
-                "Design",
-                "Physical Prototyping",
-                "User Evaluation",
-                "Iteractive Design"
-            ]
-        },
-        {
-            "title": "Software",
-            "tags": [
-                "Adobe Photoshop"
-            ]
-        },
-        {
-            "title": "Technology",
-            "tags": [
-                "Physical Design"
-            ]
-        }
-    ],
-    "facts": {
-        "date": "October 2014", 
-        "stakeholder": "KTH", 
-        "time": "4 weeks",
-        "role": "Concept, Design, User Testing",
-        "team": "2"
-    }, 
-    "description": "We were tasked with designing responsibly. Since the over-arching theme was playgrounds we decided to go with visual impairment and how to encourage play between visually impaired and sighted children. We ended up with Pitch Black, an artifact designed to playfully put sighted children in the shoes of visually impaired children while at the same time encouraging them to play together while leveling the playing field.",
-    "reflection": "The user testing part of this project was by far the most fun and at the same time perplexing part. We decorated a room in the same way we designed our artifact. We invited friends to play around and got amazing feedback. It was quite disheartening to find out, while reading related work, that children, sighted and visually impaired, rarely play together as it is. If we could help make that statistic slightly better, it would be a win!",
-    "process": "Over the 4 weeks we initially sketched a few concepts, tried to make a physical prototype, which, after a few rounds of feedback, sent up back to the drawing board. Once we had our final idea thought out and conducted our user test, we knew we were on the right path.",
-    "links": "Link to final report coming soon.",
-    "information": "I was part of a team of 2 together with Sarah Bernelind. Since the scope of the project was fairly short we made most of the things together."
+  "id": "cozycave", 
+  "more": "Ooh, this sounds interesting. Click here for more!",
+  "images": [
+    "data/projects/cozycave/cave-1.jpg", 
+    "data/projects/cozycave/cave-2.jpg", 
+    "data/projects/cozycave/cave-3.jpg", 
+    "data/projects/cozycave/cave-4.jpg", 
+    "data/projects/cozycave/cave-5.png"
+  ],
+  "header": "data/projects/cozycave/cave-header.jpg",
+  "title": "Cozy Cavern",
+  "details": [
+    {
+      "title": "Skills",
+      "tags": [
+        "Concepting",
+        "Design",
+        "Physical Prototyping",
+        "User Evaluation",
+        "Iteractive Design"
+      ]
+    },
+    {
+      "title": "Software",
+      "tags": [
+        "Adobe Photoshop"
+      ]
+    },
+    {
+      "title": "Technology",
+      "tags": [
+        "Physical Design"
+      ]
+    }
+  ],
+  "facts": {
+    "date": "October 2014", 
+    "stakeholder": "KTH", 
+    "time": "4 weeks",
+    "role": "Concept, Design, User Testing",
+    "team": "2"
+  }, 
+  "description": "We were tasked with designing responsibly. Since the over-arching theme was playgrounds we decided to go with visual impairment and how to encourage play between visually impaired and sighted children. We ended up with Pitch Black, an artifact designed to playfully put sighted children in the shoes of visually impaired children while at the same time encouraging them to play together while leveling the playing field.",
+  "reflection": "The user testing part of this project was by far the most fun and at the same time perplexing part. We decorated a room in the same way we designed our artifact. We invited friends to play around and got amazing feedback. It was quite disheartening to find out, while reading related work, that children, sighted and visually impaired, rarely play together as it is. If we could help make that statistic slightly better, it would be a win!",
+  "process": "Over the 4 weeks we initially sketched a few concepts, tried to make a physical prototype, which, after a few rounds of feedback, sent up back to the drawing board. Once we had our final idea thought out and conducted our user test, we knew we were on the right path.",
+  "links": "No links for this project.",
+  "information": "I was part of a team of 2 together with Sarah Bernelind. Since the scope of the project was fairly short we made most of the things together."
 }

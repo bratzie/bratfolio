@@ -1,48 +1,48 @@
 {
-    "id": "djubileet", 
-    "more": "That tiger looks swell. How'd you make all this?",
-    "images": [
-        "data/projects/djubileet/djb-badge.png", 
-        "data/projects/djubileet/djb-logo.png", 
-        "data/projects/djubileet/djb-poster.jpg", 
-        "data/projects/djubileet/djb-tiger.jpg"
-    ],
-    "header": "data/projects/djubileet/djb-header.jpg",
-    "title": "Computer Science Chapter at KTH turned 30",
-    "details": [
-        {
-            "title": "Skills",
-            "tags": [
-                "Concepting",
-                "Design",
-                "Planning",
-                "Branding",
-                "Badge Making",
-                "Iteractive Design",
-                "PR"
-            ]
-        },
-        {
-            "title": "Software",
-            "tags": [
-                "Adobe Photoshop"
-            ]
-        },
-        {
-            "title": "Technology",
-            "tags": []
-        }
-    ],
-    "facts": {
-        "date": "2012-2013", 
-        "stakeholder": "CS Chapter at KTH", 
-        "time": "18 months",
-        "role": "Concept, Design, Public Relations",
-        "team": "7"
-    }, 
-    "description": "In progress...",
-    "reflection": "In progress...",
-    "process": "In progress...",
-    "links": "In progress...",
-    "information": "In progress..."
+  "id": "djubileet", 
+  "more": "That tiger looks swell. How'd you make all this?",
+  "images": [
+    "data/projects/djubileet/djb-badge.png", 
+    "data/projects/djubileet/djb-logo.png", 
+    "data/projects/djubileet/djb-poster.jpg", 
+    "data/projects/djubileet/djb-tiger.jpg"
+  ],
+  "header": "data/projects/djubileet/djb-header.jpg",
+  "title": "Computer Science Chapter at KTH turned 30",
+  "details": [
+    {
+      "title": "Skills",
+      "tags": [
+        "Concepting",
+        "Design",
+        "Planning",
+        "Branding",
+        "Badge Making",
+        "Iteractive Design",
+        "PR"
+      ]
+    },
+    {
+      "title": "Software",
+      "tags": [
+        "Adobe Photoshop"
+      ]
+    },
+    {
+      "title": "Technology",
+      "tags": []
+    }
+  ],
+  "facts": {
+    "date": "2012-2013", 
+    "stakeholder": "CS Chapter at KTH", 
+    "time": "18 months",
+    "role": "Concept, Design, Public Relations",
+    "team": "7"
+  }, 
+  "description": "The Computer Science chapter at KTH, where I got my bachelor's and master's degree, turned 30. I was chosen, along with 7 other students, to plan and arrange the celebrations leading up to, and including, the birthday. The festivities included banquets, parties and various activities during the whole week when the birthday took place. The work leading up to the final week included a lot of planning, design work, marketing, leadership and - last but not least - a lot of fun!",
+  "reflection": "The project was executed very well and all of the attendees were very happy with the festivities.",
+  "process": "We started planning early since we were elected so far in advanace, the majority of the work was performed in the 4 months before the birthday.",
+  "links": "No links for this project.",
+  "information": "My role within the project was within PR and design. In the time before the birthday week I made sure everyone knew what was going on within the project and when the various events took place. I arranged competitions, produced marketing materials, designed and ordered giveaways and helped the rest of the team whenever something came up."
 }
